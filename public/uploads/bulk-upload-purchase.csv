@@ -1,0 +1,2 @@
+business_id,supplier_id,warehouse_id,order_no,purchase_date,tax_ids,status,order_type,message,delivery_charges,discount_on_deal,amount_paid,total_of_deal,payment_method,payment_status,product_variant_id,purchases_item_quantity,purchases_item_price,discount_on_item,product_variant_id,purchases_item_quantity,purchases_item_price,discount_on_item
+2,117,30,ORD1005,01-07-2025,"[""8""]",5,order,product variant id - 17 and sales prices is 30,0,0,4000,4000,cash,fully_paid,12,100,30,0,27,100,10,0

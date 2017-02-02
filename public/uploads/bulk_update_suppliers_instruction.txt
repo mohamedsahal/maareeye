@@ -1,0 +1,33 @@
+Supplier Bulk Update Instructions
+=========================================
+
+Please follow these instructions carefully for successful supplier data update.
+
+
+-> Do not rename or remove any columns.
+-> Make sure all values are valid and properly formatted.
+
+Column Details with Examples:
+------------------------------
+1. id               = Supplier ID (get it from Vendor Panel > Suppliers)  (e.g., 12)
+2. name             = Name of the supplier                               (e.g., ABC Traders)
+3. mobile           = Supplier's mobile number                           (e.g., 9876543210)
+4. email            = Supplier's email address                           (e.g., abc@example.com)
+5. opening_balance  = Opening balance (numeric)                          (e.g., 1000)
+6. credit_period    = Credit period in days                              (e.g., 30)
+7. credit_limit     = Credit limit amount (numeric)                      (e.g., 50000)
+8. billing_address  = Billing address                                    (e.g., 123 Main Street)
+9. shipping_address = Shipping address                                   (e.g., 456 Warehouse Lane)
+10. tax_name        = Tax name applicable                                (e.g., GST)
+11. tax_no          = Tax number / GSTIN                                 (e.g., 27ABCDE1234F1Z5)
+12. status          = Supplier status (numeric only)                     (e.g., 1 for active, 0 for inactive)
+
+Notes:
+------------------------------
+- The id field is mandatory for updating. You can find the supplier ID from **Vendor Panel > Suppliers**.
+- Use only numeric values in the 'status' field:
+    → 1 = active  
+    → 0 = inactive
+- Ensure mobile numbers are digits only.
+- Opening balance, credit period, and credit limit must be numeric.
+- Email addresses must be valid.

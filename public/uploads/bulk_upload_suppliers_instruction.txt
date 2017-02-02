@@ -1,0 +1,32 @@
+Supplier Bulk Upload Instructions
+=========================================
+
+Please follow these instructions carefully for successful supplier data upload.
+
+
+-> Do not rename or removeany columns.
+-> Make sure all values are valid and properly formatted.
+
+Column Details with Examples:
+------------------------------
+1. name             = Name of the supplier               (e.g., ABC Traders)
+2. mobile           = Supplier's mobile number           (e.g., 9876543210)
+3. email            = Supplier's email address           (e.g., abc@example.com)
+4. opening_balance  = Opening balance (numeric)          (e.g., 1000)
+5. credit_period    = Credit period in days              (e.g., 30)
+6. credit_limit     = Credit limit amount (numeric)      (e.g., 50000)
+7. billing_address  = Billing address                    (e.g., 123 Main Street)
+8. shipping_address = Shipping address                   (e.g., 456 Warehouse Lane)
+9. tax_name         = Tax name applicable                (e.g., GST)
+10. tax_no          = Tax number / GSTIN                 (e.g., 27ABCDE1234F1Z5)
+11. status          = Supplier status (numeric only)     (e.g., 1 for active, 0 for inactive)
+
+
+Notes:
+------------------------------
+- Use only numeric values in the 'status' field:
+    → 1 = active  
+    → 0 = inactive
+- Ensure mobile numbers are digits only.
+- Opening balance, credit period, and credit limit must be numeric.
+- Email addresses must be valid.

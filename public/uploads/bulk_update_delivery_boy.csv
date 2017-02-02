@@ -1,0 +1,2 @@
+id,name,email,phone,password,business_id,permissions,status
+5,Ahmed Khan ,ahmed.khan@example.com,9988776656,ahmed@789,2,"{""customer_permission"":""0"",""transaction_permission"":""1"",""orders_permission"":""1""}",1

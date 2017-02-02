@@ -1,0 +1,28 @@
+INFO - 2025-02-11 08:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-11 08:42:12 --> [DEPRECATED] Creation of dynamic property IonAuth\Models\IonAuthModel::$join is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php on line 231.
+ 1 APPPATH\Libraries\IonAuth.php(71): IonAuth\Models\IonAuthModel->__construct()
+ 2 APPPATH\Controllers\Home.php(12): App\Libraries\IonAuth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-11 08:42:12 --> [DEPRECATED] Creation of dynamic property IonAuth\Models\IonAuthModel::$hashMethod is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php on line 234.
+ 1 APPPATH\Libraries\IonAuth.php(71): IonAuth\Models\IonAuthModel->__construct()
+ 2 APPPATH\Controllers\Home.php(12): App\Libraries\IonAuth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-11 08:42:12 --> [DEPRECATED] Creation of dynamic property IonAuth\Models\IonAuthModel::$messagesTemplates is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php on line 237.
+ 1 APPPATH\Libraries\IonAuth.php(71): IonAuth\Models\IonAuthModel->__construct()
+ 2 APPPATH\Controllers\Home.php(12): App\Libraries\IonAuth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

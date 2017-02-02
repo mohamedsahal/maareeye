@@ -1,0 +1,146 @@
+Product Bulk Update Instructions
+=========================================
+
+Please follow these instructions carefully for successful product bulk update.
+
+-> Do not rename or remove any columns.
+-> Ensure all values are properly formatted and valid.
+-> You can update multiple variants and define their stock for multiple warehouses.
+-> The `product_id` field is mandatory and must match an existing product in the system.
+
+Column Details with Examples:
+------------------------------
+1. product_id                      = ID of the product to be updated  
+                                      (Get from Vendor Panel >> Products table)  
+                                      (e.g., 120)
+
+2. category_id                     = ID of the product category  
+                                      (Get from Vendor Panel >> Products >> Categories table)  
+                                      (e.g., 10)
+
+3. business_id                     = ID of the business  
+                                      (Get from Vendor Panel >> Businesses table)  
+                                      (e.g., 3)
+
+4. product_name                    = Name of the product  
+                                      (e.g., Apple iPhone 13)
+
+5. description                     = Description of the product  
+                                      (e.g., 128GB, Blue, 5G)
+
+6. tax_ids                         = Tax IDs applicable (array format)  
+                                      (e.g., ['1','2'])
+
+7. brand_id                        = ID of the brand  
+                                      (Get from Vendor Panel >> Products >> Brands table)  
+                                      (e.g., 4)
+
+8. image                           = Image path of the product  
+                                      (Copy from Vendor Panel >> Media table → 3rd button in Actions)  
+                                      (e.g., uploads/products/iphone13.jpg)
+
+9. product_type                    = Type of product  
+                                      (Use: single or variable)  
+                                      (e.g., variable)
+
+10. stock_management               = Stock management type  
+                                      (0 = disabled, 1 = product level, 2 = variant level)  
+                                      (e.g., 1)
+
+11. product_stock                  = Total stock (Only if stock management is product level)  
+                                      (e.g., 100)
+
+12. product_qty_alert              = Low stock alert threshold (Only if stock management is product level)  
+                                      (e.g., 10)
+
+13. product_unit_id                = Unit ID of the product (Only if stock management is product level)  
+                                      (Get from Vendor Panel >> Products >> Units table)  
+                                      (e.g., 1)
+
+14. is_tax_included                = Whether price includes tax (1 = yes, 0 = no)  
+                                      (e.g., 1)
+
+15. status                         = Product status (1 = active, 0 = inactive)  
+                                      (e.g., 1)
+
+Variant 1 Details:
+------------------------------
+16. variant_1_id                   = ID of Variant 1 
+				     (Get it from Vendor Panel >> Products → click eye icon → Variant table)  
+                                     (e.g., 301)
+
+17. variant_1_name                 = Name of Variant 1 (e.g., 128GB Blue)
+
+18. variant_1_barcode             = Barcode for Variant 1 (e.g., 1234567890123)
+
+19. variant_1_sale_price          = Sale price for Variant 1 (e.g., 70000)
+
+20. variant_1_purchase_price      = Purchase price for Variant 1 (e.g., 65000)
+
+21. variant_1_unit_id             = Unit ID for Variant 1 (e.g., 1)  
+                                      (Only if stock management is variant level)
+
+22. variant_1_stock               = Total stock for Variant 1 (e.g., 50)  
+                                      (Only if stock management is variant level)
+
+23. variant_1_qty_alert           = Low stock alert for Variant 1 (e.g., 5)  
+                                      (Only if stock management is variant level)
+
+24. variant_1_warehouse_1_id      = Warehouse ID 1  
+                                      (Get from Vendor Panel >> Warehouses table)  
+                                      (e.g., 1)
+
+25. variant_1_warehouse_1_stock   = Stock in Warehouse 1 (e.g., 30)
+
+26. variant_1_warehouse_1_qty_alert = Low stock alert in Warehouse 1 (e.g., 3)
+
+27. variant_1_warehouse_2_id      = Warehouse ID 2 (e.g., 2)
+
+28. variant_1_warehouse_2_stock   = Stock in Warehouse 2 (e.g., 20)
+
+29. variant_1_warehouse_2_qty_alert = Low stock alert in Warehouse 2 (e.g., 2)
+
+Variant 2 Details (if applicable):
+------------------------------
+30. variant_2_id                   = ID of Variant 2 
+			             (Get it from Vendor Panel >> Products → click eye icon → Variant table)		
+                                     (e.g., 302)
+
+31. variant_2_name                 = Name of Variant 2 (e.g., 256GB Black)
+
+32. variant_2_barcode             = Barcode for Variant 2 (e.g., 9876543210987)
+
+33. variant_2_sale_price          = Sale price for Variant 2 (e.g., 80000)
+
+34. variant_2_purchase_price      = Purchase price for Variant 2 (e.g., 75000)
+
+35. variant_2_unit_id             = Unit ID for Variant 2 (e.g., 1)  
+                                      (Only if stock management is variant level)
+
+36. variant_2_stock               = Total stock for Variant 2 (e.g., 60)  
+                                      (Only if stock management is variant level)
+
+37. variant_2_qty_alert           = Low stock alert for Variant 2 (e.g., 6)  
+                                      (Only if stock management is variant level)
+
+38. variant_2_warehouse_1_id      = Warehouse ID 1 (e.g., 1)
+
+39. variant_2_warehouse_1_stock   = Stock in Warehouse 1 (e.g., 35)
+
+40. variant_2_warehouse_1_qty_alert = Low stock alert in Warehouse 1 (e.g., 3)
+
+41. variant_2_warehouse_2_id      = Warehouse ID 2 (e.g., 2)
+
+42. variant_2_warehouse_2_stock   = Stock in Warehouse 2 (e.g., 25)
+
+43. variant_2_warehouse_2_qty_alert = Low stock alert in Warehouse 2 (e.g., 3)
+
+Notes:
+---------------------------------------------------------
+- `product_id` and each `variant_id` must match existing records in the system.
+- All other referenced IDs (category, brand, unit, warehouse) must be valid.
+- Use `product_type = single` for products without variants; variant fields can be left blank.
+- Use numeric values for booleans:
+    → 1 = yes / active  
+    → 0 = no / inactive
+- Image must be uploaded beforehand and the correct path used from the Media panel.

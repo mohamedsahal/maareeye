@@ -1,0 +1,2 @@
+category_id,business_id,vendor_id,tax_id,name,description,qty_alert,image,type,stock_management,stock,unit_id,is_tax_included,status,variant_name,sale_price,purchase_price,variant_stock,variant_qty_alert,variant_unit_id,variant_status
+1,2,1,"[""4""]",Product 1,Description 1,10,img1.jpg,simple,2,1,6,1,1,Simple,50,30,50,10,1,1

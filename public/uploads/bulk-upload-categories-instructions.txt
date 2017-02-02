@@ -1,0 +1,30 @@
+Category Bulk Upload Instructions
+=========================================
+
+Please follow these instructions carefully for successful category bulk upload.
+
+-> Do not rename or remove any columns.
+-> Ensure all values are properly formatted and valid.
+-> Use `0` in `parent_id` if it's a main (top-level) category.
+
+Column Details with Examples:
+------------------------------
+1. parent_id     = ID of the parent category  
+                   (Pass 0 if it's a main category)  
+                   (e.g., 0 or 5)
+
+2. name          = Name of the category  
+                   (e.g., Electronics)
+
+3. status        = Status of the category (1 = active, 0 = inactive)  
+                   (e.g., 1)
+
+Notes:
+---------------------------------------------------------
+- Use `0` for `parent_id` if the category is a root (main) category.
+- Use a valid `parent_id` if the category is a subcategory (must exist in system).
+- Use only numeric values for `status`:
+    → 1 = active  
+    → 0 = inactive
+- Ensure all names are meaningful and not left empty.
+

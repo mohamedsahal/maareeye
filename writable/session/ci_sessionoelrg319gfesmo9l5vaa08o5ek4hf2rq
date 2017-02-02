@@ -1,0 +1,9 @@
+message|s:308:"<!-- DEBUG-VIEW START 1 FCPATH\vendor\benedmunds\codeigniter-ion-auth\Views\Messages\list.php -->
+	<div class="alert alert-info" role="alert">
+		<ul>
+					<li>Logged Out Successfully</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 FCPATH\vendor\benedmunds\codeigniter-ion-auth\Views\Messages\list.php -->
+";__ci_vars|a:1:{s:7:"message";s:3:"old";}__ci_last_regenerate|i:1740027460;_ci_previous_url|s:37:"http://localhost/upbiz-sass-git/login";

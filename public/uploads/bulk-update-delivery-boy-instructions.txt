@@ -1,0 +1,50 @@
+Delivery Boy Bulk Update Instructions
+=========================================
+
+Please follow these instructions carefully for successful delivery boy bulk update.
+
+-> Do not rename or remove any columns.
+-> Ensure all values are properly formatted and valid.
+-> The `id` field is mandatory and must match an existing delivery boy record.
+-> The `permissions` field must be passed as a JSON object.
+
+Column Details with Examples:
+------------------------------
+1. id            = ID of the delivery boy to be updated  
+                   (Get it from Vendor Panel >> Delivery Boys table)  
+                   (e.g., 12)
+
+2. name          = Full name of the delivery boy  
+                   (e.g., Raj Kumar)
+
+3. email         = Email address  
+                   (e.g., raj@example.com)
+
+4. phone         = Mobile number  
+                   (10-digit number only)  
+                   (e.g., 9876543210)
+
+5. password      = Login password  
+                   (e.g., raj@123)
+
+6. business_id   = ID of the business the delivery boy belongs to  
+                   (Get it from Vendor Panel >> Businesses table)  
+                   (e.g., 3)
+
+7. permissions   = JSON object of allowed permissions  
+                   (use this only, {"customer_permission":"1","transaction_permission":"1","orders_permission":"1"})
+
+8. status        = Status of the delivery boy (1 = active, 0 = inactive)  
+                   (e.g., 1)
+
+Notes:
+---------------------------------------------------------
+- `id` is required and must match an existing delivery boy.
+- `phone` must be a valid 10-digit number (digits only).
+- `email` must be in a valid email format.
+- `password` must be strong and secure.
+- Use only numeric values for `status`:
+    → 1 = active  
+    → 0 = inactive
+- `permissions` must be a valid JSON object (use double quotes around keys and values).
+- Ensure `business_id` exists and is valid.

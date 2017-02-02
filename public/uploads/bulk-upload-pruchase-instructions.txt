@@ -1,0 +1,83 @@
+Purchase Order Bulk Upload Instructions
+=========================================
+
+Please follow these instructions carefully for successful purchase order bulk upload.
+
+-> Do not rename or remove any columns.
+-> Ensure all values are properly formatted and valid.
+-> Product variant fields must be repeated in sets of 4 (variant ID, quantity, price, discount) for multiple products.
+
+Column Details with Examples:
+------------------------------
+1. business_id              = ID of the business placing the order  
+                             (Get it from Vendor Panel >> Businesses table)  
+                             (e.g., 3)
+
+2. supplier_id              = ID of the supplier  
+                             (Get it from Vendor Panel >> Suppliers table)  
+                             (e.g., 7)
+
+3. warehouse_id             = ID of the warehouse  
+                             (Get it from Vendor Panel >> Warehouses table)  
+                             (e.g., 2)
+
+4. order_no                 = Purchase order number  
+                             (e.g., PO-1001)
+
+5. purchase_date            = Date of purchase in YYYY-MM-DD format  
+                             (e.g., 2024-07-23)
+
+6. tax_ids                  = Tax ID(s) applicable (must be in this format: ['1','2'])  
+                             (e.g., ['1','2'])
+
+7. status                   = Order status
+			     (Get it from Vendor Panel >> Status table)    
+                             (e.g., 2)
+
+8. order_type               = Type of order (either: order or return)  
+                             (e.g., order)
+
+9. message                  = Notes or comments (optional)  
+                             (e.g., Urgent delivery)
+
+10. delivery_charges        = Delivery charge amount (numeric)  
+                              (e.g., 100)
+
+11. discount_on_deal        = Discount on total deal (numeric)  
+                              (e.g., 200)
+
+12. amount_paid             = Amount paid so far (numeric)  
+                              (e.g., 5000)
+
+13. total_of_deal           = Total value of the deal (numeric)  
+                              (e.g., 7500)
+
+14. payment_method          = Payment method used  
+                              (e.g., bank_transfer)
+
+15. payment_status          = Payment status (only use one of the following:  
+                              ['fully_paid', 'partially_paid', 'unpaid', 'cancelled'])  
+                              (e.g., fully_paid)
+
+Product Variants (Repeat for each product in the order):
+---------------------------------------------------------
+16. product_variant_id      = ID of the product variant  
+                              (Get it from Vendor Panel >> Products table → click eye icon → copy from Product Variants table)  
+                              (e.g., 101)
+
+17. purchases_item_quantity = Quantity of the item (numeric)  
+                              (e.g., 5)
+
+18. purchases_item_price    = Price per item (numeric)  
+                              (e.g., 1000)
+
+19. discount_on_item        = Discount per item (numeric)  
+                              (e.g., 50)
+
+➡ Repeat fields 16 to 19 for each additional product in the same row.
+
+Notes:
+---------------------------------------------------------
+- Dates must be in the format YYYY-MM-DD.
+- Ensure all ID values (business, supplier, warehouse, product_variant) are correct and exist in the system.
+- Only use valid values for `status`, `order_type`, and `payment_status`.
