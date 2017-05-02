@@ -3,12 +3,16 @@
 use App\Libraries\Flutterwave;
 
 /**
- * Returns the app display name, normalizing legacy "Maareeye" to "Maareeye".
+ * Returns the app display name. Ensures Maareeye is displayed correctly.
  */
 function get_app_display_name($title = '')
 {
     $title = trim($title ?? '');
-    if (empty($title) || in_array(strtolower($title), ['Maareeye', 'up biz'])) {
+    if (empty($title)) {
+        return 'Maareeye';
+    }
+    $lower = strtolower($title);
+    if (in_array($lower, ['maareeye', 'up biz', 'upbiz'])) {
         return 'Maareeye';
     }
     return $title;

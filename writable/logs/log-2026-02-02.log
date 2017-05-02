@@ -60712,3 +60712,222 @@ WARNING - 2026-02-02 02:36:35 --> [DEPRECATED] Creation of dynamic property IonA
  5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:45:28 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Home.php(17): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:45:29 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Home.php(17): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:45:29 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Home.php(17): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 02:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:45:51 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\About.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\About->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:02 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\Features.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Features->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:10 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\About.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\About->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 02:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:19 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Home.php(17): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:20 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Home.php(17): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:20 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Home.php(17): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:24 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Settings.php(18): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Settings->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:30 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Settings.php(18): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Settings->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:35 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Settings.php(18): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Settings->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:37 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Settings.php(18): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Settings->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:40 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Settings.php(18): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Settings->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:42 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\admin\Settings.php(18): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Settings->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 02:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:46:49 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\About.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\About->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:50:30 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\About.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\About->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:50:32 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\About.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\About->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:50:40 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\About.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\About->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:50:47 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\Contact.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Contact->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:50:51 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\Pricing.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Pricing->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:50:55 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\Faqs.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Faqs->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:51:00 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\Features.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Features->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 02:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 02:51:07 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
+ 1 APPPATH\Controllers\About.php(13): IonAuth\Libraries\IonAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\About->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
