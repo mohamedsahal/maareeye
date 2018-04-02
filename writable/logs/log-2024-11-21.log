@@ -327,7 +327,7 @@ WARNING - 2024-11-21 03:51:21 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:21:21 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1210,22 +1210,22 @@ WARNING - 2024-11-21 03:51:39 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-11-21 09:21:39 --> mysqli_sql_exception: Duplicate entry 'infinitie.yasha@gmail.com' for key 'email' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-11-21 09:21:39 --> mysqli_sql_exception: Duplicate entry 'infinitie.yasha@gmail.com' for key 'email' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php(1842): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php(1842): CodeIgniter\Database\BaseBuilder->update(Array, Array)
 #5 [internal function]: IonAuth\Models\IonAuthModel->update(100, Array)
-#6 C:\xampp1\htdocs\upbiz-sass-git\app\Libraries\IonAuth.php(104): call_user_func_array(Array, Array)
-#7 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Orders.php(978): App\Libraries\IonAuth->__call('update', Array)
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save()
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#11 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#12 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#13 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\app\Libraries\IonAuth.php(104): call_user_func_array(Array, Array)
+#7 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Orders.php(978): App\Libraries\IonAuth->__call('update', Array)
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save()
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #14 {main}
 INFO - 2024-11-21 03:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2024-11-21 03:51:39 --> [DEPRECATED] Creation of dynamic property IonAuth\Models\IonAuthModel::$join is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php on line 231.
@@ -2094,7 +2094,7 @@ WARNING - 2024-11-21 03:51:55 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:21:55 --> ErrorException: Undefined array key 0
 [Method: GET, Route: vendor/orders/send_reminder]
 in APPPATH\Controllers\vendor\Orders.php on line 1655.
- 1 APPPATH\Controllers\vendor\Orders.php(1655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 1655)
+ 1 APPPATH\Controllers\vendor\Orders.php(1655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 1655)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->send_reminder()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -2162,7 +2162,7 @@ WARNING - 2024-11-21 03:52:06 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:22:06 --> ErrorException: Undefined array key 0
 [Method: GET, Route: vendor/orders/send_reminder]
 in APPPATH\Controllers\vendor\Orders.php on line 1655.
- 1 APPPATH\Controllers\vendor\Orders.php(1655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 1655)
+ 1 APPPATH\Controllers\vendor\Orders.php(1655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 1655)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->send_reminder()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -2562,7 +2562,7 @@ WARNING - 2024-11-21 03:54:26 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:24:26 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -4409,22 +4409,22 @@ WARNING - 2024-11-21 04:18:07 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-11-21 09:48:07 --> mysqli_sql_exception: Duplicate entry 'infinitie.yasha@gmail.com' for key 'email' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-11-21 09:48:07 --> mysqli_sql_exception: Duplicate entry 'infinitie.yasha@gmail.com' for key 'email' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php(1842): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php(1842): CodeIgniter\Database\BaseBuilder->update(Array, Array)
 #5 [internal function]: IonAuth\Models\IonAuthModel->update(100, Array)
-#6 C:\xampp1\htdocs\upbiz-sass-git\app\Libraries\IonAuth.php(104): call_user_func_array(Array, Array)
-#7 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Orders.php(979): App\Libraries\IonAuth->__call('update', Array)
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save()
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#11 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#12 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#13 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\app\Libraries\IonAuth.php(104): call_user_func_array(Array, Array)
+#7 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Orders.php(979): App\Libraries\IonAuth->__call('update', Array)
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save()
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #14 {main}
 INFO - 2024-11-21 04:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2024-11-21 04:18:07 --> [DEPRECATED] Creation of dynamic property IonAuth\Models\IonAuthModel::$join is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php on line 231.
@@ -4746,22 +4746,22 @@ WARNING - 2024-11-21 04:26:16 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-11-21 09:56:16 --> mysqli_sql_exception: Duplicate entry 'infinitie.yasha@gmail.com' for key 'email' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-11-21 09:56:16 --> mysqli_sql_exception: Duplicate entry 'infinitie.yasha@gmail.com' for key 'email' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php(1842): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php(1842): CodeIgniter\Database\BaseBuilder->update(Array, Array)
 #5 [internal function]: IonAuth\Models\IonAuthModel->update(100, Array)
-#6 C:\xampp1\htdocs\upbiz-sass-git\app\Libraries\IonAuth.php(104): call_user_func_array(Array, Array)
-#7 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Orders.php(980): App\Libraries\IonAuth->__call('update', Array)
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save()
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#11 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#12 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#13 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\app\Libraries\IonAuth.php(104): call_user_func_array(Array, Array)
+#7 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Orders.php(980): App\Libraries\IonAuth->__call('update', Array)
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save()
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #14 {main}
 INFO - 2024-11-21 04:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2024-11-21 04:26:17 --> [DEPRECATED] Creation of dynamic property IonAuth\Models\IonAuthModel::$join is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Models\IonAuthModel.php on line 231.
@@ -5176,7 +5176,7 @@ WARNING - 2024-11-21 04:26:55 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:56:55 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 171.
- 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5332,7 +5332,7 @@ WARNING - 2024-11-21 04:28:25 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:58:25 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 173.
- 1 APPPATH\Controllers\vendor\Suppliers.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 173)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 173)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5400,7 +5400,7 @@ WARNING - 2024-11-21 04:28:28 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:58:28 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 173.
- 1 APPPATH\Controllers\vendor\Suppliers.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 173)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 173)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5468,7 +5468,7 @@ WARNING - 2024-11-21 04:28:42 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:58:42 --> ErrorException: Undefined variable $rows
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 173.
- 1 APPPATH\Controllers\vendor\Suppliers.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 173)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 173)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5536,7 +5536,7 @@ WARNING - 2024-11-21 04:29:00 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:59:00 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 175.
- 1 APPPATH\Controllers\vendor\Suppliers.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 175)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 175)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5692,7 +5692,7 @@ WARNING - 2024-11-21 04:29:39 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-21 09:59:39 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 172.
- 1 APPPATH\Controllers\vendor\Suppliers.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 172)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 172)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)

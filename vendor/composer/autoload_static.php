@@ -153,7 +153,6 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
         'App\\Controllers\\admin\\Tax' => __DIR__ . '/../..' . '/app/Controllers/admin/Tax.php',
         'App\\Controllers\\admin\\Transactions' => __DIR__ . '/../..' . '/app/Controllers/admin/Transactions.php',
         'App\\Controllers\\admin\\Units' => __DIR__ . '/../..' . '/app/Controllers/admin/Units.php',
-        'App\\Controllers\\admin\\Updater' => __DIR__ . '/../..' . '/app/Controllers/admin/Updater.php',
         'App\\Controllers\\admin\\Vendors' => __DIR__ . '/../..' . '/app/Controllers/admin/Vendors.php',
         'App\\Controllers\\delivery_boy\\Bulk_Uploads' => __DIR__ . '/../..' . '/app/Controllers/delivery_boy/Bulk_Uploads.php',
         'App\\Controllers\\delivery_boy\\Customers' => __DIR__ . '/../..' . '/app/Controllers/delivery_boy/Customers.php',

@@ -139,12 +139,12 @@ INFO - 2025-07-09 05:39:53 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 11:09:53 --> ErrorException: Undefined variable $brands
 [Method: GET, Route: delivery_boy/orders/create]
 in APPPATH\Views\delivery-man\pages\forms\create_orders.php on line 82.
- 1 APPPATH\Views\delivery-man\pages\forms\create_orders.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php', 82)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php')
+ 1 APPPATH\Views\delivery-man\pages\forms\create_orders.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php', 82)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pages/forms/create_orders', [], true)
  5 APPPATH\Views\delivery-man\template.php(72): view('delivery-man/pages/forms/create_orders')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/template', [], true)
  9 APPPATH\Controllers\delivery_boy\Orders.php(118): view('delivery-man/template', [...])
@@ -154,33 +154,33 @@ in APPPATH\Views\delivery-man\pages\forms\create_orders.php on line 82.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-09 11:09:53 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-09 11:09:53 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $brands
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Views\delivery-man\pages\forms\create_orders.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
-#8 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\delivery_boy\Orders.php(118): view('delivery-man/te...', Array)
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\delivery-man\pages\forms\create_orders.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
+#8 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\delivery_boy\Orders.php(118): view('delivery-man/te...', Array)
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: delivery_boy/orders/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -195,24 +195,24 @@ in APPPATH\Controllers\delivery_boy\Orders.php on line 109.
  4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-09 11:10:49 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-09 11:10:49 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Class "App\Controllers\delivery_boy\BrandModel" not found
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#5 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #6 {main}
 [Method: GET, Route: delivery_boy/orders/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -221,12 +221,12 @@ INFO - 2025-07-09 05:41:01 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 11:11:01 --> ErrorException: Undefined variable $warehouses
 [Method: GET, Route: delivery_boy/orders/create]
 in APPPATH\Views\delivery-man\pages\forms\create_orders.php on line 92.
- 1 APPPATH\Views\delivery-man\pages\forms\create_orders.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $warehouses', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php', 92)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php')
+ 1 APPPATH\Views\delivery-man\pages\forms\create_orders.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $warehouses', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php', 92)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pages/forms/create_orders', [], true)
  5 APPPATH\Views\delivery-man\template.php(72): view('delivery-man/pages/forms/create_orders')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/template', [], true)
  9 APPPATH\Controllers\delivery_boy\Orders.php(120): view('delivery-man/template', [...])
@@ -236,33 +236,33 @@ in APPPATH\Views\delivery-man\pages\forms\create_orders.php on line 92.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-09 11:11:01 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-09 11:11:01 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $warehouses
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Views\delivery-man\pages\forms\create_orders.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
-#8 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\delivery_boy\Orders.php(120): view('delivery-man/te...', Array)
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\delivery-man\pages\forms\create_orders.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
+#8 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\delivery_boy\Orders.php(120): view('delivery-man/te...', Array)
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: delivery_boy/orders/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -271,12 +271,12 @@ INFO - 2025-07-09 05:42:32 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 11:12:32 --> ErrorException: Undefined variable $default_warehouse_id
 [Method: GET, Route: delivery_boy/orders/create]
 in APPPATH\Views\delivery-man\pages\forms\create_orders.php on line 94.
- 1 APPPATH\Views\delivery-man\pages\forms\create_orders.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_warehouse_id', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php', 94)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php')
+ 1 APPPATH\Views\delivery-man\pages\forms\create_orders.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default_warehouse_id', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\pages\\forms\\create_orders.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pages/forms/create_orders', [], true)
  5 APPPATH\Views\delivery-man\template.php(72): view('delivery-man/pages/forms/create_orders')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/template', [], true)
  9 APPPATH\Controllers\delivery_boy\Orders.php(126): view('delivery-man/template', [...])
@@ -286,33 +286,33 @@ in APPPATH\Views\delivery-man\pages\forms\create_orders.php on line 94.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-09 11:12:32 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-09 11:12:32 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $default_warehouse_id
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Views\delivery-man\pages\forms\create_orders.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
-#8 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\delivery_boy\Orders.php(126): view('delivery-man/te...', Array)
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\delivery-man\pages\forms\create_orders.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
+#8 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\delivery_boy\Orders.php(126): view('delivery-man/te...', Array)
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->create()
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: delivery_boy/orders/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -1114,7 +1114,7 @@ INFO - 2025-07-09 06:39:43 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:09:44 --> ErrorException: Attempt to read property "first_name" on null
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 69.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1167,7 +1167,7 @@ INFO - 2025-07-09 06:49:26 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:19:26 --> ErrorException: Attempt to read property "first_name" on null
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 69.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1189,7 +1189,7 @@ INFO - 2025-07-09 06:50:07 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:20:07 --> ErrorException: Attempt to read property "first_name" on null
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 70.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 70)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 70)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1220,7 +1220,7 @@ INFO - 2025-07-09 06:59:10 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:29:10 --> ErrorException: Attempt to read property "first_name" on null
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 70.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 70)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 70)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1232,7 +1232,7 @@ INFO - 2025-07-09 06:59:12 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:29:12 --> ErrorException: Attempt to read property "first_name" on null
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 70.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 70)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 70)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1246,7 +1246,7 @@ INFO - 2025-07-09 06:59:58 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:29:58 --> ErrorException: Undefined array key 0
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 69.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1273,7 +1273,7 @@ INFO - 2025-07-09 07:00:02 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:30:03 --> ErrorException: Undefined array key 0
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 69.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1284,7 +1284,7 @@ INFO - 2025-07-09 07:00:05 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:30:05 --> ErrorException: Undefined array key 0
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 69.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1305,7 +1305,7 @@ INFO - 2025-07-09 07:08:34 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 12:38:34 --> ErrorException: Undefined array key 0
 [Method: GET, Route: delivery_boy/transactions/transactions_table]
 in APPPATH\Controllers\delivery_boy\Transactions.php on line 69.
- 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
+ 1 APPPATH\Controllers\delivery_boy\Transactions.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Transactions.php', 69)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Transactions->transactions_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Transactions))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1700,7 +1700,7 @@ INFO - 2025-07-09 09:39:36 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-09 15:09:36 --> ErrorException: Undefined variable $limit
 [Method: GET, Route: delivery_boy/orders/orders_table]
 in APPPATH\Models\Orders_model.php on line 146.
- 1 APPPATH\Models\Orders_model.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Orders_model.php', 146)
+ 1 APPPATH\Models\Orders_model.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Orders_model.php', 146)
  2 APPPATH\Controllers\delivery_boy\Orders.php(451): App\Models\Orders_model->get_delivery_boy_orders_list('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->orders_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
@@ -1725,7 +1725,7 @@ in SYSTEMPATH\Validation\Validation.php on line 322.
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-07-09 09:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-07-09 09:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2025-07-09 15:10:07 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in C:\xampp\htdocs\projects\upbiz-saas\app\Models\Orders_model.php on line 146
+CRITICAL - 2025-07-09 15:10:07 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in C:\xampp\htdocs\projects\Maareeye-saas\app\Models\Orders_model.php on line 146
 [Method: GET, Route: delivery_boy/orders/orders_table]
 in SYSTEMPATH\Database\BaseBuilder.php on line 1509.
  1 APPPATH\Models\Orders_model.php(146): CodeIgniter\Database\BaseBuilder->limit('', '0')

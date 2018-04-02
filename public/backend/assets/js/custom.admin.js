@@ -670,64 +670,6 @@ function set_locale(language_code) {
         location.reload();
     });
 }
-if (document.getElementById('system-update-dropzone')) {
-
-    var systemDropzone = new Dropzone("#system-update-dropzone", {
-        url: base_url + '/admin/updater/upload_update_file',
-        paramName: "update_file",
-        autoProcessQueue: false,
-        parallelUploads: 1,
-        maxFiles: 1,
-        timeout: 360000,
-        autoDiscover: false,
-        addRemoveLinks: true,
-        dictRemoveFile: 'x',
-        dictMaxFilesExceeded: 'Only 1 file can be uploaded at a time ',
-        dictResponseError: 'Error',
-        uploadMultiple: true,
-        dictDefaultMessage: '<p><input type="button" value="Select Files" class="btn btn-success" /><br> or <br> Drag & Drop System Update / Installable / Plugin\'s .zip file Here</p>',
-    });
-
-    systemDropzone.on("addedfile", function (file) {
-        var i = 0;
-        if (this.files.length) {
-            var _i, _len;
-            for (_i = 0, _len = this.files.length; _i < _len - 1; _i++) {
-                if (this.files[_i].name === file.name && this.files[_i].size === file.size && this.files[_i].lastModifiedDate.toString() === file.lastModifiedDate.toString()) {
-                    this.removeFile(file);
-                    i++;
-                }
-            }
-        }
-    });
-
-    systemDropzone.on("error", function (file, response) {
-        console.log(response);
-    });
-
-    systemDropzone.on('sending', function (file, xhr, formData) {
-        formData.append(csrf_token, csrf_hash);
-        xhr.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                var response = JSON.parse(this.response);
-                csrf_token = response.csrf_token;
-                csrf_hash = response.csrf_hash;
-                if (response['error'] == false) {
-                    showToastMessage(response['message'], "success");
-                } else {
-                    showToastMessage(response['message'], "error");
-
-                }
-                $(file.previewElement).find('.dz-error-message').text(response.message);
-            }
-        };
-    });
-    $('#system_update_btn').on('click', function (e) {
-        e.preventDefault();
-        systemDropzone.processQueue();
-    });
-}
-
 //database backup
 $("#backup_database").on("click", function (e) {
     Swal.fire({

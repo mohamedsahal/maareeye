@@ -106,8 +106,6 @@ $routes->get('admin/settings/payment_gateway', 'admin\Settings::payment_gateway'
 $routes->get('admin/settings/refund_policy', 'admin\Settings::refund_policy');
 $routes->get('admin/settings/terms_and_conditions', 'admin\Settings::terms_and_conditions');
 $routes->get('admin/settings/privacy_policy', 'admin\Settings::privacy_policy');
-$routes->get('admin/updater', 'admin\Updater::index');
-$routes->post('admin/updater/upload_update_file', 'admin\Updater::upload_update_file');
 $routes->get('admin/settings/email', 'admin\Settings::email');
 $routes->get('admin/database', 'admin\Database::index');
 $routes->get('admin/database/backup', 'admin\Database::backup');

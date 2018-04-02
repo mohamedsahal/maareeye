@@ -689,7 +689,7 @@ WARNING - 2024-11-20 05:29:35 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 10:59:35 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1319.
- 1 APPPATH\Controllers\vendor\Products.php(1319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1319)
+ 1 APPPATH\Controllers\vendor\Products.php(1319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1319)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -6278,19 +6278,19 @@ WARNING - 2024-11-20 06:07:57 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-11-20 11:37:57 --> mysqli_sql_exception: Unknown column 'tax_id' in 'field list' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-11-20 11:37:57 --> mysqli_sql_exception: Unknown column 'tax_id' in 'field list' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `n...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(518): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
-#6 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(518): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
+#6 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 CRITICAL - 2024-11-20 11:37:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'field list'
 [Method: GET, Route: vendor/products/products_table]
@@ -6602,19 +6602,19 @@ WARNING - 2024-11-20 06:08:01 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-11-20 11:38:01 --> mysqli_sql_exception: Unknown column 'tax_id' in 'field list' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-11-20 11:38:01 --> mysqli_sql_exception: Unknown column 'tax_id' in 'field list' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `n...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(518): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
-#6 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(518): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
+#6 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 CRITICAL - 2024-11-20 11:38:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'field list'
 [Method: GET, Route: vendor/products/products_table]
@@ -6753,7 +6753,7 @@ WARNING - 2024-11-20 06:09:00 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 11:39:00 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Controllers\vendor\Products.php on line 527.
- 1 APPPATH\Controllers\vendor\Products.php(527): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 527)
+ 1 APPPATH\Controllers\vendor\Products.php(527): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 527)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -7867,7 +7867,7 @@ WARNING - 2024-11-20 06:15:51 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 11:45:51 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1427.
- 1 APPPATH\Controllers\vendor\Products.php(1427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1427)
+ 1 APPPATH\Controllers\vendor\Products.php(1427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1427)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -8255,7 +8255,7 @@ WARNING - 2024-11-20 06:15:55 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 11:45:55 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Controllers\vendor\Products.php on line 537.
- 1 APPPATH\Controllers\vendor\Products.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 537)
+ 1 APPPATH\Controllers\vendor\Products.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 537)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -8587,7 +8587,7 @@ WARNING - 2024-11-20 06:15:58 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 11:45:58 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Controllers\vendor\Products.php on line 537.
- 1 APPPATH\Controllers\vendor\Products.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 537)
+ 1 APPPATH\Controllers\vendor\Products.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 537)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -9589,7 +9589,7 @@ WARNING - 2024-11-20 06:16:59 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 11:46:59 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Controllers\vendor\Products.php on line 537.
- 1 APPPATH\Controllers\vendor\Products.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 537)
+ 1 APPPATH\Controllers\vendor\Products.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 537)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -9657,7 +9657,7 @@ WARNING - 2024-11-20 06:17:33 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 11:47:33 --> ErrorException: Undefined variable $tax_percentage
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Controllers\vendor\Products.php on line 582.
- 1 APPPATH\Controllers\vendor\Products.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tax_percentage', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 582)
+ 1 APPPATH\Controllers\vendor\Products.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tax_percentage', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 582)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -10103,7 +10103,7 @@ WARNING - 2024-11-20 06:20:25 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-11-20 11:50:25 --> ErrorException: Undefined variable $tax_percentage
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Controllers\vendor\Products.php on line 579.
- 1 APPPATH\Controllers\vendor\Products.php(579): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tax_percentage', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 579)
+ 1 APPPATH\Controllers\vendor\Products.php(579): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tax_percentage', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 579)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)

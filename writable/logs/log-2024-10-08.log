@@ -5805,7 +5805,7 @@ WARNING - 2024-10-08 05:59:06 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-08 11:29:06 --> ErrorException: Undefined array key "tax_ids"
 [Method: GET, Route: vendor/products/json]
 in APPPATH\Controllers\vendor\Products.php on line 762.
- 1 APPPATH\Controllers\vendor\Products.php(762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_ids"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 762)
+ 1 APPPATH\Controllers\vendor\Products.php(762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_ids"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 762)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5900,44 +5900,44 @@ WARNING - 2024-10-08 11:29:06 --> [DEPRECATED] Creation of dynamic property IonA
  7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-10-08 06:09:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+ERROR - 2024-10-08 06:09:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'saas_upbiz2', 3306, '', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
-#6 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(639): CodeIgniter\Database\MigrationRunner->ensureTable()
-#7 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Commands\Database\MigrateStatus.php(115): CodeIgniter\Database\MigrationRunner->getHistory('')
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:status', Array)
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
-#11 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
-#12 C:\xampp1\htdocs\upbiz-sass-git\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'saas_Maareeye2', 3306, '', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(639): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Commands\Database\MigrateStatus.php(115): CodeIgniter\Database\MigrationRunner->getHistory('')
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:status', Array)
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp1\htdocs\Maareeye-sass-git\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
 #13 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(639): CodeIgniter\Database\MigrationRunner->ensureTable()
-#6 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Commands\Database\MigrateStatus.php(115): CodeIgniter\Database\MigrationRunner->getHistory('')
-#7 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:status', Array)
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
-#11 C:\xampp1\htdocs\upbiz-sass-git\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(639): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Commands\Database\MigrateStatus.php(115): CodeIgniter\Database\MigrationRunner->getHistory('')
+#7 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:status', Array)
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 C:\xampp1\htdocs\Maareeye-sass-git\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
 #12 {main}
 CRITICAL - 2024-10-08 06:09:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it
 [Method: CLI, Route: migrate:status]
 in SYSTEMPATH\Database\BaseConnection.php on line 467.
  1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
- 2 SYSTEMPATH\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FROM `saas_upbiz2`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FROM `saas_Maareeye2`')
  3 SYSTEMPATH\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
  4 SYSTEMPATH\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
  5 SYSTEMPATH\Database\MigrationRunner.php(639): CodeIgniter\Database\MigrationRunner->ensureTable()
@@ -6191,7 +6191,7 @@ WARNING - 2024-10-08 06:11:00 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-08 11:41:00 --> ErrorException: Undefined variable $is_tax_inlcuded
 [Method: GET, Route: vendor/products/json]
 in APPPATH\Controllers\vendor\Products.php on line 783.
- 1 APPPATH\Controllers\vendor\Products.php(783): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $is_tax_inlcuded', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 783)
+ 1 APPPATH\Controllers\vendor\Products.php(783): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $is_tax_inlcuded', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 783)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -6344,21 +6344,21 @@ WARNING - 2024-10-08 06:11:31 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-10-08 11:41:31 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-10-08 11:41:31 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\app\Helpers\function_helper.php(89): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp1\htdocs\upbiz-sass-git\app\Helpers\function_helper.php(402): fetch_details('products', Array, Array, '10', 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(747): fetch_products('2', '', ' ', '10', 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\app\Helpers\function_helper.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\app\Helpers\function_helper.php(402): fetch_details('products', Array, Array, '10', 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(747): fetch_products('2', '', ' ', '10', 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2024-10-08 11:41:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/json]
@@ -11214,7 +11214,7 @@ WARNING - 2024-10-08 12:22:02 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-08 12:22:02 --> ErrorException: Undefined array key "id"
 [Method: POST, Route: vendor/orders/save_order]
 in APPPATH\Controllers\vendor\Orders.php on line 447.
- 1 APPPATH\Controllers\vendor\Orders.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 447)
+ 1 APPPATH\Controllers\vendor\Orders.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 447)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_order()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)

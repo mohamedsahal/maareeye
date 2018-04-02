@@ -13,7 +13,7 @@ INFO - 2025-07-12 04:31:56 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 10:01:56 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -38,7 +38,7 @@ INFO - 2025-07-12 04:32:25 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 10:02:25 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -73,7 +73,7 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('delivery-man/pages/views/   .php')
  2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pages/views/   ', [], true)
  3 APPPATH\Views\delivery-man\template.php(72): view('delivery-man/pages/views/   ')
- 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\delivery-man\\template.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\delivery-man\\template.php')
  5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('delivery-man/template', [], true)
  7 APPPATH\Controllers\delivery_boy\Orders.php(73): view('delivery-man/template', [...])
@@ -83,31 +83,31 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
 11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-12 10:09:15 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-12 10:09:15 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
 #5 {main}
   thrown
 【Previous Exception】
 CodeIgniter\View\Exceptions\ViewException
 Invalid file: "delivery-man/pages/views/   .php"
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('delivery-man/pa...')
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
-#2 C:\xampp\htdocs\projects\upbiz-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\delivery_boy\Orders.php(73): view('delivery-man/te...', Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->index()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('delivery-man/pa...')
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/pa...', Array, true)
+#2 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\delivery-man\template.php(72): view('delivery-man/pa...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('delivery-man/te...', Array, true)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\delivery_boy\Orders.php(73): view('delivery-man/te...', Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->index()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 [Method: GET, Route: delivery_boy/orders]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -444,7 +444,7 @@ INFO - 2025-07-12 05:00:10 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 10:30:10 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -626,11 +626,11 @@ CRITICAL - 2025-07-12 10:39:44 --> TypeError: date(): Argument #2 ($timestamp) m
 [Method: GET, Route: vendor/purchases/invoice/5]
 in APPPATH\Views\vendor\pages\views\purchase_invoice.php on line 56.
  1 APPPATH\Views\vendor\pages\views\purchase_invoice.php(56): date('Y-M-D', '2025-07-03 18:05:19')
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\vendor\\pages\\views\\purchase_invoice.php')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\vendor\\pages\\views\\purchase_invoice.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/views/purchase_invoice', [], true)
  5 APPPATH\Views\vendor\template.php(84): view('vendor/pages/views/purchase_invoice')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Purchases.php(670): view('vendor/template', [...])
@@ -640,33 +640,33 @@ in APPPATH\Views\vendor\pages\views\purchase_invoice.php on line 56.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-12 10:39:44 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-12 10:39:44 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(TypeError), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(TypeError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(TypeError), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(TypeError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
 #5 {main}
   thrown
 【Previous Exception】
 TypeError
 date(): Argument #2 ($timestamp) must be of type ?int, string given
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Views\vendor\pages\views\purchase_invoice.php(56): date('Y-M-D', '2025-07-03 18:0...')
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Views\vendor\template.php(84): view('vendor/pages/vi...')
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Purchases.php(670): view('vendor/template', Array)
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('5')
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\vendor\pages\views\purchase_invoice.php(56): date('Y-M-D', '2025-07-03 18:0...')
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\vendor\template.php(84): view('vendor/pages/vi...')
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Purchases.php(670): view('vendor/template', Array)
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('5')
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/purchases/invoice/5]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -700,25 +700,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-12 11:31:24 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-12 11:31:24 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -734,25 +734,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-12 11:31:35 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-12 11:31:35 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -820,7 +820,7 @@ INFO - 2025-07-12 06:14:59 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 11:45:00 --> ErrorException: foreach() argument must be of type array|object, string given
 [Method: POST, Route: vendor/payments/post_payment]
 in APPPATH\Helpers\function_helper.php on line 969.
- 1 APPPATH\Helpers\function_helper.php(969): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Helpers\\function_helper.php', 969)
+ 1 APPPATH\Helpers\function_helper.php(969): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Helpers\\function_helper.php', 969)
  2 APPPATH\Controllers\vendor\Payments.php(109): add_subscription('105', '2', '3', 'pay_Qs3MzIVeXlqTDc', '2499', 'Quarterly')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Payments->post_payment()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Payments))
@@ -1003,7 +1003,7 @@ INFO - 2025-07-12 06:38:51 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:08:51 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1028,7 +1028,7 @@ INFO - 2025-07-12 06:39:14 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:09:14 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1048,7 +1048,7 @@ INFO - 2025-07-12 06:39:18 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:09:18 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1066,7 +1066,7 @@ INFO - 2025-07-12 06:45:30 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:15:30 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1084,7 +1084,7 @@ INFO - 2025-07-12 06:45:53 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:15:53 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1104,7 +1104,7 @@ INFO - 2025-07-12 06:47:04 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:17:04 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1119,7 +1119,7 @@ INFO - 2025-07-12 06:47:37 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:17:37 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1145,7 +1145,7 @@ INFO - 2025-07-12 06:48:48 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:18:48 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1166,7 +1166,7 @@ INFO - 2025-07-12 06:48:59 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:18:59 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1193,7 +1193,7 @@ INFO - 2025-07-12 06:59:02 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:29:02 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1216,7 +1216,7 @@ INFO - 2025-07-12 07:01:57 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:31:57 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1240,7 +1240,7 @@ INFO - 2025-07-12 07:02:07 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:32:07 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1258,7 +1258,7 @@ INFO - 2025-07-12 07:02:12 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:32:12 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1277,7 +1277,7 @@ INFO - 2025-07-12 07:02:43 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:32:43 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1315,7 +1315,7 @@ INFO - 2025-07-12 07:21:12 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 12:51:12 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1329,7 +1329,7 @@ INFO - 2025-07-12 07:42:35 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:12:35 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1349,7 +1349,7 @@ INFO - 2025-07-12 07:43:10 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:13:10 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1366,7 +1366,7 @@ INFO - 2025-07-12 07:48:19 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:18:19 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1383,7 +1383,7 @@ INFO - 2025-07-12 07:48:29 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:18:29 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1401,7 +1401,7 @@ INFO - 2025-07-12 07:49:01 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:19:01 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1420,7 +1420,7 @@ INFO - 2025-07-12 07:54:14 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:24:14 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1437,7 +1437,7 @@ INFO - 2025-07-12 07:54:30 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:24:30 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1459,7 +1459,7 @@ INFO - 2025-07-12 08:01:19 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:31:19 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -1477,7 +1477,7 @@ INFO - 2025-07-12 08:03:03 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-12 13:33:03 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))

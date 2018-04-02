@@ -912,19 +912,19 @@ WARNING - 2024-09-18 03:29:49 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-18 08:59:51 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-18 08:59:51 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 18 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1103): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 18 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1103): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-18 08:59:51 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-18 08:59:51 --> 

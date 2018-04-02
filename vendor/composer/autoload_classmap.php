@@ -36,7 +36,6 @@ return array(
     'App\\Controllers\\admin\\Tax' => $baseDir . '/app/Controllers/admin/Tax.php',
     'App\\Controllers\\admin\\Transactions' => $baseDir . '/app/Controllers/admin/Transactions.php',
     'App\\Controllers\\admin\\Units' => $baseDir . '/app/Controllers/admin/Units.php',
-    'App\\Controllers\\admin\\Updater' => $baseDir . '/app/Controllers/admin/Updater.php',
     'App\\Controllers\\admin\\Vendors' => $baseDir . '/app/Controllers/admin/Vendors.php',
     'App\\Controllers\\delivery_boy\\Bulk_Uploads' => $baseDir . '/app/Controllers/delivery_boy/Bulk_Uploads.php',
     'App\\Controllers\\delivery_boy\\Customers' => $baseDir . '/app/Controllers/delivery_boy/Customers.php',

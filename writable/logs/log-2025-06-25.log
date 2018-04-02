@@ -32,11 +32,11 @@ INFO - 2025-06-25 06:34:44 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-06-25 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 06:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2025-06-25 12:05:38 --> ErrorException: unlink(C:\xampp\htdocs\projects\upbiz-saas\): Resource temporarily unavailable
+CRITICAL - 2025-06-25 12:05:38 --> ErrorException: unlink(C:\xampp\htdocs\projects\Maareeye-saas\): Resource temporarily unavailable
 [Method: POST, Route: vendor/businesses/save_business]
 in APPPATH\Controllers\vendor\Businesses.php on line 115.
- 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\projects\\upbiz-saas\\): Resource temporarily unavailable', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Businesses.php', 115)
- 2 APPPATH\Controllers\vendor\Businesses.php(115): unlink('C:\\xampp\\htdocs\\projects\\upbiz-saas\\')
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\projects\\Maareeye-saas\\): Resource temporarily unavailable', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Businesses.php', 115)
+ 2 APPPATH\Controllers\vendor\Businesses.php(115): unlink('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Businesses->save_business()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Businesses))
  5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -53,7 +53,7 @@ INFO - 2025-06-25 06:39:46 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-25 12:09:46 --> ErrorException: unlink(): Invalid argument
 [Method: POST, Route: vendor/businesses/save_business]
 in APPPATH\Controllers\vendor\Businesses.php on line 115.
- 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): Invalid argument', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Businesses.php', 115)
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): Invalid argument', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Businesses.php', 115)
  2 APPPATH\Controllers\vendor\Businesses.php(115): unlink('')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Businesses->save_business()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Businesses))
@@ -91,25 +91,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 12:26:18 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 12:26:18 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -127,25 +127,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 12:26:38 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 12:26:38 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -161,25 +161,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 12:26:42 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 12:26:42 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -196,25 +196,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 12:26:57 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 12:26:57 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -230,25 +230,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 12:27:02 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 12:27:02 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -341,25 +341,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 12:36:01 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 12:36:01 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -383,7 +383,7 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendor/pages/forms/warehouse.php')
  2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/warehouse', [], true)
  3 APPPATH\Views\vendor\template.php(84): view('vendor/pages/forms/warehouse')
- 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Views\\vendor\\template.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Views\\vendor\\template.php')
  5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  7 APPPATH\Controllers\vendor\Warehouse.php(77): view('vendor/template', [...])
@@ -393,31 +393,31 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
 11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 12:38:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 12:38:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
 #5 {main}
   thrown
 【Previous Exception】
 CodeIgniter\View\Exceptions\ViewException
 Invalid file: "vendor/pages/forms/warehouse.php"
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendor/pages/fo...')
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#2 C:\xampp\htdocs\projects\upbiz-saas\app\Views\vendor\template.php(84): view('vendor/pages/fo...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Warehouse.php(77): view('vendor/template', Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Vendor\Warehouse->index()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\Warehouse))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendor/pages/fo...')
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#2 C:\xampp\htdocs\projects\Maareeye-saas\app\Views\vendor\template.php(84): view('vendor/pages/fo...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Warehouse.php(77): view('vendor/template', Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Vendor\Warehouse->index()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\Warehouse))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 [Method: GET, Route: vendor/warehouse]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -603,12 +603,12 @@ INFO - 2025-06-25 09:26:06 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-06-25 09:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2025-06-25 09:26:16 --> ErrorException: include(C:\xampp\htdocs\projects\upbiz-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
+CRITICAL - 2025-06-25 09:26:16 --> ErrorException: include(C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
 [Method: GET, Route: vendor/team_members]
 in FCPATH\vendor\composer\ClassLoader.php on line 576.
- 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer\\ClassLoader.php', 576)
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer\\ClassLoader.php', 576)
  2 FCPATH\vendor\composer\ClassLoader.php(576): include()
- 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php')
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php')
  4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\vendor\\Team_members')
  5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\vendor\\Team_members', true)
  6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
@@ -616,28 +616,28 @@ in FCPATH\vendor\composer\ClassLoader.php on line 576.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 09:26:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 09:26:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-include(C:\xampp\htdocs\projects\upbiz-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(576): include()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+include(C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
 #3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(887): class_exists('\\App\\Controller...', true)
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
-#6 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(887): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/team_members]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -674,7 +674,7 @@ INFO - 2025-06-25 09:30:24 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-25 15:00:24 --> ErrorException: Undefined variable $rows
 [Method: GET, Route: vendor/categories/category_table]
 in APPPATH\Controllers\vendor\Categories.php on line 233.
- 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Categories.php', 233)
+ 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Categories.php', 233)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Categories->category_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Categories))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -726,7 +726,7 @@ INFO - 2025-06-25 09:31:20 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-25 15:01:20 --> ErrorException: Undefined variable $rows
 [Method: GET, Route: vendor/expenses_type/expenses_type_table]
 in APPPATH\Controllers\vendor\Expenses_type.php on line 174.
- 1 APPPATH\Controllers\vendor\Expenses_type.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Expenses_type.php', 174)
+ 1 APPPATH\Controllers\vendor\Expenses_type.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Expenses_type.php', 174)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Expenses_Type->expenses_type_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Expenses_Type))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -796,12 +796,12 @@ INFO - 2025-06-25 09:31:40 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-06-25 09:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2025-06-25 09:31:43 --> ErrorException: include(C:\xampp\htdocs\projects\upbiz-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
+CRITICAL - 2025-06-25 09:31:43 --> ErrorException: include(C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
 [Method: GET, Route: vendor/team_members]
 in FCPATH\vendor\composer\ClassLoader.php on line 576.
- 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer\\ClassLoader.php', 576)
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer\\ClassLoader.php', 576)
  2 FCPATH\vendor\composer\ClassLoader.php(576): include()
- 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php')
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php')
  4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\vendor\\Team_members')
  5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\vendor\\Team_members', true)
  6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
@@ -809,28 +809,28 @@ in FCPATH\vendor\composer\ClassLoader.php on line 576.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 09:31:43 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 09:31:43 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-include(C:\xampp\htdocs\projects\upbiz-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(576): include()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+include(C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
 #3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(887): class_exists('\\App\\Controller...', true)
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
-#6 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(887): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/team_members]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -938,12 +938,12 @@ INFO - 2025-06-25 09:45:26 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-06-25 09:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2025-06-25 09:45:32 --> ErrorException: include(C:\xampp\htdocs\projects\upbiz-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
+CRITICAL - 2025-06-25 09:45:32 --> ErrorException: include(C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
 [Method: GET, Route: vendor/team_members]
 in FCPATH\vendor\composer\ClassLoader.php on line 576.
- 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer\\ClassLoader.php', 576)
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer\\ClassLoader.php', 576)
  2 FCPATH\vendor\composer\ClassLoader.php(576): include()
- 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projects\\upbiz-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php')
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projects\\Maareeye-saas\\vendor\\composer/../../app/Controllers/vendor/Team_members.php')
  4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\vendor\\Team_members')
  5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\vendor\\Team_members', true)
  6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
@@ -951,28 +951,28 @@ in FCPATH\vendor\composer\ClassLoader.php on line 576.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-25 09:45:32 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-25 09:45:32 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-include(C:\xampp\htdocs\projects\upbiz-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(576): include()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+include(C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer/../../app/Controllers/vendor/Team_members.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
 #3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(887): class_exists('\\App\\Controller...', true)
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
-#6 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(887): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/team_members]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -998,21 +998,21 @@ INFO - 2025-06-25 09:47:51 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-06-25 09:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-25 15:18:33 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-25 15:18:33 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(905): fetch_products('2', '', '', 's', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(905): fetch_products('2', '', '', 's', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-25 15:18:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/json]
@@ -1218,21 +1218,21 @@ ORDER BY `id` DESC
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-25 09:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-25 09:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-25 15:18:35 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-25 15:18:35 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(905): fetch_products('2', '', '', 'a', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(905): fetch_products('2', '', '', 'a', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-25 15:18:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/json]
@@ -1442,7 +1442,7 @@ INFO - 2025-06-25 09:48:42 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-25 15:18:42 --> ErrorException: Undefined variable $rows
 [Method: GET, Route: vendor/categories/category_table]
 in APPPATH\Controllers\vendor\Categories.php on line 233.
- 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Categories.php', 233)
+ 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Categories.php', 233)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Categories->category_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Categories))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1457,7 +1457,7 @@ INFO - 2025-06-25 09:49:14 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-25 15:19:14 --> ErrorException: Undefined variable $rows
 [Method: GET, Route: vendor/categories/category_table]
 in APPPATH\Controllers\vendor\Categories.php on line 233.
- 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Categories.php', 233)
+ 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Categories.php', 233)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Categories->category_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Categories))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -1469,7 +1469,7 @@ INFO - 2025-06-25 09:49:43 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-25 15:19:43 --> ErrorException: Undefined variable $rows
 [Method: GET, Route: vendor/categories/category_table]
 in APPPATH\Controllers\vendor\Categories.php on line 233.
- 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Categories.php', 233)
+ 1 APPPATH\Controllers\vendor\Categories.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Categories.php', 233)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Categories->category_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Categories))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)

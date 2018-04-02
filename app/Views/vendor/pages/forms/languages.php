@@ -348,7 +348,6 @@ helper('form')
                                         <?= create_label('payment_gateway', 'Payment Gateway') ?>
                                         <?= create_label('tts', 'TTS') ?>
                                         <?= create_label('configurations', 'Configurations') ?>
-                                        <?= create_label('system_updater', 'System Updater') ?>
                                         <?= create_label('dashboard', 'Dashboard') ?>
                                         <?= create_label('no_active', 'No active subscription found') ?>
                                         <?= create_label('purchase_date', 'Purchase Date') ?>

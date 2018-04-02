@@ -3053,7 +3053,7 @@ WARNING - 2024-10-09 09:53:14 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 09:53:14 --> ErrorException: Undefined array key "id"
 [Method: POST, Route: vendor/orders/save_order]
 in APPPATH\Controllers\vendor\Orders.php on line 447.
- 1 APPPATH\Controllers\vendor\Orders.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 447)
+ 1 APPPATH\Controllers\vendor\Orders.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 447)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_order()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -3239,7 +3239,7 @@ WARNING - 2024-10-09 09:55:47 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 09:55:47 --> ErrorException: foreach() argument must be of type array|object, string given
 [Method: POST, Route: vendor/orders/save_order]
 in APPPATH\Controllers\vendor\Orders.php on line 572.
- 1 APPPATH\Controllers\vendor\Orders.php(572): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 572)
+ 1 APPPATH\Controllers\vendor\Orders.php(572): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 572)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_order()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -12571,20 +12571,20 @@ WARNING - 2024-10-09 05:08:55 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-10-09 10:38:55 --> mysqli_sql_exception: Unknown column 'tax_id' in 'field list' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-10-09 10:38:55 --> mysqli_sql_exception: Unknown column 'tax_id' in 'field list' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tax_id`...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tax_id`...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tax_id`...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tax_id`...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\app\Helpers\function_helper.php(89): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Orders.php(1342): fetch_details('products', Array, Array)
-#6 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_sales_orders()
-#7 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#11 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tax_id`...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tax_id`...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tax_id`...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tax_id`...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\app\Helpers\function_helper.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Orders.php(1342): fetch_details('products', Array, Array)
+#6 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_sales_orders()
+#7 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #12 {main}
 CRITICAL - 2024-10-09 10:38:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'field list'
 [Method: POST, Route: vendor/orders/save_sales_orders]
@@ -12710,7 +12710,7 @@ WARNING - 2024-10-09 05:10:35 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 10:40:35 --> ErrorException: Undefined array key "tax_id"
 [Method: POST, Route: vendor/orders/save_sales_orders]
 in APPPATH\Controllers\vendor\Orders.php on line 1345.
- 1 APPPATH\Controllers\vendor\Orders.php(1345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 1345)
+ 1 APPPATH\Controllers\vendor\Orders.php(1345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 1345)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_sales_orders()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -12778,7 +12778,7 @@ WARNING - 2024-10-09 05:11:12 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 10:41:12 --> ErrorException: Undefined array key "tax_id"
 [Method: POST, Route: vendor/orders/save_sales_orders]
 in APPPATH\Controllers\vendor\Orders.php on line 1349.
- 1 APPPATH\Controllers\vendor\Orders.php(1349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 1349)
+ 1 APPPATH\Controllers\vendor\Orders.php(1349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 1349)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_sales_orders()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -17144,7 +17144,7 @@ WARNING - 2024-10-09 05:35:26 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:05:26 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 171.
- 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -17388,7 +17388,7 @@ WARNING - 2024-10-09 05:35:31 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:05:31 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 171.
- 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -17632,7 +17632,7 @@ WARNING - 2024-10-09 05:36:27 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:06:27 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 171.
- 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 171)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -19757,32 +19757,32 @@ WARNING - 2024-10-09 05:56:37 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:26:37 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 519.
- 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
+ 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 11:26:37 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 11:26:37 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined array key "tax_id"
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -22908,32 +22908,32 @@ WARNING - 2024-10-09 06:01:16 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:31:16 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 519.
- 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
+ 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 11:31:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 11:31:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined array key "tax_id"
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -23057,32 +23057,32 @@ WARNING - 2024-10-09 06:03:37 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:33:37 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 523.
- 1 APPPATH\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 523)
+ 1 APPPATH\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 523)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 11:33:37 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 11:33:37 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined array key "tax_id"
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 523)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 523)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -23412,32 +23412,32 @@ WARNING - 2024-10-09 06:03:44 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:33:44 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 523.
- 1 APPPATH\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 523)
+ 1 APPPATH\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 523)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 11:33:44 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 11:33:44 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined array key "tax_id"
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 523)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(523): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 523)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -23503,32 +23503,32 @@ WARNING - 2024-10-09 06:05:40 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:35:40 --> ErrorException: Undefined variable $subTotal
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 519.
- 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTotal', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
+ 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTotal', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 11:35:40 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 11:35:40 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $subTotal
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 519)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 519)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -23594,32 +23594,32 @@ WARNING - 2024-10-09 06:05:42 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:35:42 --> ErrorException: Undefined variable $subTotal
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 519.
- 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTotal', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
+ 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTotal', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 11:35:42 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 11:35:42 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $subTotal
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 519)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 519)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -23773,7 +23773,7 @@ WARNING - 2024-10-09 06:06:14 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:36:14 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/purchases/invoice_table/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 564.
- 1 APPPATH\Controllers\vendor\Purchases.php(564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 564)
+ 1 APPPATH\Controllers\vendor\Purchases.php(564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 564)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice_table('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -23929,7 +23929,7 @@ WARNING - 2024-10-09 06:06:17 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:36:17 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/purchases/invoice_table/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 564.
- 1 APPPATH\Controllers\vendor\Purchases.php(564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 564)
+ 1 APPPATH\Controllers\vendor\Purchases.php(564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 564)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice_table('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -26292,7 +26292,7 @@ WARNING - 2024-10-09 06:20:24 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 11:50:24 --> ErrorException: Undefined array key "tax_details"
 [Method: GET, Route: vendor/invoices/invoice_table/19]
 in APPPATH\Controllers\vendor\Invoices.php on line 139.
- 1 APPPATH\Controllers\vendor\Invoices.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_details"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Invoices.php', 139)
+ 1 APPPATH\Controllers\vendor\Invoices.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_details"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Invoices.php', 139)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Invoices->invoice_table('19')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -29292,32 +29292,32 @@ WARNING - 2024-10-09 06:56:49 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 12:26:49 --> ErrorException: Undefined array key "final_total"
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 519.
- 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_total"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
+ 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_total"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 12:26:49 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 12:26:49 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined array key "final_total"
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -29647,32 +29647,32 @@ WARNING - 2024-10-09 06:56:54 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 12:26:54 --> ErrorException: Undefined array key "final_total"
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 519.
- 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_total"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
+ 1 APPPATH\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_total"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 519)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 12:26:54 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 12:26:54 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined array key "final_total"
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 519)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -30498,32 +30498,32 @@ WARNING - 2024-10-09 07:04:09 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 12:34:09 --> ErrorException: Undefined array key "total"
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 530.
- 1 APPPATH\Controllers\vendor\Purchases.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 530)
+ 1 APPPATH\Controllers\vendor\Purchases.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 530)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 12:34:09 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 12:34:09 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined array key "total"
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 530)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp1\\htdoc...', 530)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -30763,32 +30763,32 @@ WARNING - 2024-10-09 07:06:54 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 12:36:54 --> ErrorException: Undefined variable $total
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 545.
- 1 APPPATH\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 545)
+ 1 APPPATH\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 545)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 12:36:54 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 12:36:54 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $total
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 545)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 545)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -30854,32 +30854,32 @@ WARNING - 2024-10-09 07:07:19 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 12:37:19 --> ErrorException: Undefined variable $total
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 545.
- 1 APPPATH\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 545)
+ 1 APPPATH\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 545)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 12:37:19 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 12:37:19 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $total
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 545)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 545)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -30945,32 +30945,32 @@ WARNING - 2024-10-09 07:07:35 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 12:37:35 --> ErrorException: Undefined variable $total
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Controllers\vendor\Purchases.php on line 545.
- 1 APPPATH\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 545)
+ 1 APPPATH\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 545)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-10-09 12:37:35 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-10-09 12:37:35 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $total
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 545)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Purchases.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 545)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Purchases->invoice('1')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: vendor/purchases/invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -43415,7 +43415,7 @@ WARNING - 2024-10-09 11:40:44 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 17:10:44 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/services/json]
 in APPPATH\Controllers\vendor\Services.php on line 439.
- 1 APPPATH\Controllers\vendor\Services.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Services.php', 439)
+ 1 APPPATH\Controllers\vendor\Services.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Services.php', 439)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Services->json()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Services))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -43656,21 +43656,21 @@ WARNING - 2024-10-09 11:40:50 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-10-09 17:10:51 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-10-09 17:10:51 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\app\Helpers\function_helper.php(89): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp1\htdocs\upbiz-sass-git\app\Helpers\function_helper.php(484): fetch_details('services', Array, Array, '10', 0, 'id', 'DESC', '', '', Array)
-#6 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\vendor\Services.php(434): fetch_services('2', 'a', '10', 0, 'id', 'DESC')
-#7 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Services->json()
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Services))
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\app\Helpers\function_helper.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\app\Helpers\function_helper.php(484): fetch_details('services', Array, Array, '10', 0, 'id', 'DESC', '', '', Array)
+#6 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\vendor\Services.php(434): fetch_services('2', 'a', '10', 0, 'id', 'DESC')
+#7 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Services->json()
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Services))
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2024-10-09 17:10:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/services/json]
@@ -44038,7 +44038,7 @@ WARNING - 2024-10-09 11:41:36 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 17:11:36 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/services/json]
 in APPPATH\Controllers\vendor\Services.php on line 439.
- 1 APPPATH\Controllers\vendor\Services.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Services.php', 439)
+ 1 APPPATH\Controllers\vendor\Services.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Services.php', 439)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Services->json()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Services))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -44282,7 +44282,7 @@ WARNING - 2024-10-09 11:41:39 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 17:11:39 --> ErrorException: Undefined array key "tax_id"
 [Method: GET, Route: vendor/services/json]
 in APPPATH\Controllers\vendor\Services.php on line 439.
- 1 APPPATH\Controllers\vendor\Services.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Services.php', 439)
+ 1 APPPATH\Controllers\vendor\Services.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Services.php', 439)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Services->json()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Services))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -48454,7 +48454,7 @@ WARNING - 2024-10-09 17:21:13 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 17:21:13 --> ErrorException: foreach() argument must be of type array|object, string given
 [Method: POST, Route: vendor/orders/save_order]
 in APPPATH\Controllers\vendor\Orders.php on line 572.
- 1 APPPATH\Controllers\vendor\Orders.php(572): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 572)
+ 1 APPPATH\Controllers\vendor\Orders.php(572): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 572)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_order()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -49259,7 +49259,7 @@ WARNING - 2024-10-09 17:22:01 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-10-09 17:22:01 --> ErrorException: foreach() argument must be of type array|object, string given
 [Method: POST, Route: vendor/orders/save_order]
 in APPPATH\Controllers\vendor\Orders.php on line 572.
- 1 APPPATH\Controllers\vendor\Orders.php(572): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 572)
+ 1 APPPATH\Controllers\vendor\Orders.php(572): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 572)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->save_order()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -53423,7 +53423,7 @@ WARNING - 2024-10-09 12:43:32 --> [DEPRECATED] Creation of dynamic property IonA
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 WARNING - 2024-10-09 18:13:34 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\vendor\pages\views\view_invoice.php on line 120.
  1 APPPATH\Views\vendor\pages\views\view_invoice.php(120): json_decode(null, true)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/views/view_invoice', [], true)
  5 APPPATH\Controllers\vendor\Invoices.php(236): view('vendor/pages/views/view_invoice', [...])

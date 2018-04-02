@@ -802,21 +802,21 @@ INFO - 2025-06-26 09:16:06 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-06-26 09:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-26 09:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-26 09:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -1021,21 +1021,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'ta', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'ta', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -1240,21 +1240,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'tat', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'tat', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -1459,21 +1459,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:21 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'tata', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'tata', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -1678,21 +1678,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:23 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:23 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'tat', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'tat', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -1897,21 +1897,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:23 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:23 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'ta', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'ta', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -2116,21 +2116,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:24 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:24 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -2336,21 +2336,21 @@ ORDER BY `id` DESC
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-26 09:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:25 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:25 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -2555,21 +2555,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:25 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:25 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'te', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'te', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -2774,21 +2774,21 @@ ORDER BY `id` DESC
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-06-26 09:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 14:46:25 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 14:46:25 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 't', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 14:46:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]
@@ -3085,21 +3085,21 @@ INFO - 2025-06-26 09:45:57 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-06-26 09:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-26 09:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-26 09:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-06-26 15:16:05 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-06-26 15:16:05 --> mysqli_sql_exception: Unknown column 'tax_id' in 'where clause' in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'd', 10, 0, 'id', 'DESC', '', Array, Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(143): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\app\Helpers\function_helper.php(458): fetch_details('products', Array, Array, 10, 0, 'id', 'DESC', '', Array, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\vendor\Products.php(906): fetch_products('2', '', '', 'd', 10, 0, 'id', 'DESC', '', Array, Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->get_products()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-06-26 15:16:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tax_id' in 'where clause'
 [Method: GET, Route: vendor/products/get_products]

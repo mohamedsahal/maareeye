@@ -27251,25 +27251,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-02-18 08:46:50 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-02-18 08:46:50 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -27320,25 +27320,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-02-18 08:46:56 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-02-18 08:46:56 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -27389,25 +27389,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-02-18 08:46:58 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-02-18 08:46:58 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -27458,25 +27458,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-02-18 08:46:59 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-02-18 08:46:59 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp1\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isVendor() called
-#0 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\Login.php(21): IonAuth\Libraries\IonAuth->__call('isVendor', Array)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Login->index()
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -28281,22 +28281,22 @@ WARNING - 2025-02-18 03:44:15 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2025-02-18 09:14:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL' at line 2 in C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-02-18 09:14:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL' at line 2 in C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('ALTER TABLE `pa...', 0)
-#1 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `pa...')
-#2 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `pa...')
-#3 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `pa...')
-#4 C:\xampp1\htdocs\upbiz-sass-git\app\Database\Migrations\2025-02-18-034148_ModifyPackagesTable.php(11): CodeIgniter\Database\Forge->addColumn('packages', Array)
-#5 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\ModifyPackagesTable->up()
-#6 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
-#7 C:\xampp1\htdocs\upbiz-sass-git\app\Controllers\admin\Migrate.php(27): CodeIgniter\Database\MigrationRunner->latest()
-#8 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\admin\Migrate->index()
-#9 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Migrate))
-#10 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#11 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#12 C:\xampp1\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#13 C:\xampp1\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('ALTER TABLE `pa...', 0)
+#1 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `pa...')
+#2 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `pa...')
+#3 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `pa...')
+#4 C:\xampp1\htdocs\Maareeye-sass-git\app\Database\Migrations\2025-02-18-034148_ModifyPackagesTable.php(11): CodeIgniter\Database\Forge->addColumn('packages', Array)
+#5 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\ModifyPackagesTable->up()
+#6 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp1\htdocs\Maareeye-sass-git\app\Controllers\admin\Migrate.php(27): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\admin\Migrate->index()
+#9 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Migrate))
+#10 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #14 {main}
 INFO - 2025-02-18 03:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2025-02-18 03:44:59 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.

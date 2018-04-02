@@ -736,19 +736,19 @@ WARNING - 2024-09-25 03:40:52 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:10:54 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:10:54 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:10:54 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:10:54 --> 
@@ -840,19 +840,19 @@ WARNING - 2024-09-25 03:40:54 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:10:56 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:10:56 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:10:56 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:10:56 --> 
@@ -944,19 +944,19 @@ WARNING - 2024-09-25 03:40:56 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:10:58 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:10:58 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:10:58 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:10:58 --> 
@@ -1048,19 +1048,19 @@ WARNING - 2024-09-25 03:40:58 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:11:01 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:11:01 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:11:01 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:11:01 --> 
@@ -3968,19 +3968,19 @@ WARNING - 2024-09-25 04:11:05 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:41:07 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:41:07 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:41:07 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:41:07 --> 
@@ -4072,19 +4072,19 @@ WARNING - 2024-09-25 04:11:07 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:41:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:41:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:41:09 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:41:09 --> 
@@ -4176,19 +4176,19 @@ WARNING - 2024-09-25 04:11:10 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:41:12 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:41:12 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:41:12 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:41:12 --> 
@@ -4280,19 +4280,19 @@ WARNING - 2024-09-25 04:11:12 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 09:41:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 09:41:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 09:41:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 09:41:14 --> 
@@ -7239,19 +7239,19 @@ WARNING - 2024-09-25 07:17:11 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 12:47:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 12:47:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 12:47:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 12:47:14 --> 
@@ -7343,19 +7343,19 @@ WARNING - 2024-09-25 07:17:14 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 12:47:16 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 12:47:16 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 12:47:16 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 12:47:16 --> 
@@ -7447,19 +7447,19 @@ WARNING - 2024-09-25 07:17:16 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 12:47:18 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 12:47:18 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 12:47:18 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 12:47:18 --> 
@@ -7551,19 +7551,19 @@ WARNING - 2024-09-25 07:17:18 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 12:47:20 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-25 12:47:20 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Wed, 25 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1144): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-25 12:47:20 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 12:47:20 --> 
@@ -12585,7 +12585,7 @@ WARNING - 2024-09-25 09:53:58 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:23:58 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -12741,7 +12741,7 @@ WARNING - 2024-09-25 09:54:01 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:24:01 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -12809,7 +12809,7 @@ WARNING - 2024-09-25 09:55:09 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:25:09 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 197.
- 1 APPPATH\Controllers\vendor\Orders.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 197)
+ 1 APPPATH\Controllers\vendor\Orders.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 197)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -12947,7 +12947,7 @@ WARNING - 2024-09-25 09:55:58 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:25:58 --> ErrorException: Undefined variable $customers
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 199.
- 1 APPPATH\Controllers\vendor\Orders.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 199)
+ 1 APPPATH\Controllers\vendor\Orders.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 199)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -13015,7 +13015,7 @@ WARNING - 2024-09-25 09:56:27 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:26:27 --> ErrorException: Attempt to read property "first_name" on null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 200.
- 1 APPPATH\Controllers\vendor\Orders.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 200)
+ 1 APPPATH\Controllers\vendor\Orders.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 200)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -15066,7 +15066,7 @@ WARNING - 2024-09-25 10:03:23 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:33:23 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -15222,7 +15222,7 @@ WARNING - 2024-09-25 10:03:25 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:33:25 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -15290,7 +15290,7 @@ WARNING - 2024-09-25 10:03:28 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:33:28 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -16340,7 +16340,7 @@ WARNING - 2024-09-25 10:04:25 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:34:25 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -16496,7 +16496,7 @@ WARNING - 2024-09-25 10:04:27 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:34:27 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -16564,7 +16564,7 @@ WARNING - 2024-09-25 10:04:27 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:34:27 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -16727,7 +16727,7 @@ WARNING - 2024-09-25 10:05:01 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:35:01 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -17601,7 +17601,7 @@ WARNING - 2024-09-25 10:05:25 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:35:25 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -17998,7 +17998,7 @@ WARNING - 2024-09-25 10:08:53 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:38:53 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -18784,7 +18784,7 @@ WARNING - 2024-09-25 10:10:41 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-25 15:40:41 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/orders/orders_table]
 in APPPATH\Controllers\vendor\Orders.php on line 196.
- 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
+ 1 APPPATH\Controllers\vendor\Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Orders.php', 196)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -19567,20 +19567,20 @@ WARNING - 2024-09-25 10:29:42 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 15:59:45 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for host failed: No such host is known.  in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
+ERROR - 2024-09-25 15:59:45 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for host failed: No such host is known.  in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1896)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://host', 465, NULL, NULL, 5)
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#5 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Orders.php(1714): CodeIgniter\Email\Email->send()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->send_reminder()
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#11 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://host', 465, NULL, NULL, 5)
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Orders.php(1714): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Orders->send_reminder()
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Orders))
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #12 {main}
 ERROR - 2024-09-25 15:59:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 15:59:45 --> 
@@ -21059,20 +21059,20 @@ WARNING - 2024-09-25 10:46:16 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 16:16:19 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for host failed: No such host is known.  in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
+ERROR - 2024-09-25 16:16:19 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for host failed: No such host is known.  in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1896)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://host', 465, NULL, NULL, 5)
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#5 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(110): CodeIgniter\Email\Email->send()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->send()
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#11 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://host', 465, NULL, NULL, 5)
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(110): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->send()
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #12 {main}
 ERROR - 2024-09-25 16:16:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 16:16:19 --> 
@@ -21164,20 +21164,20 @@ WARNING - 2024-09-25 10:46:52 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 16:16:55 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for host failed: No such host is known.  in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
+ERROR - 2024-09-25 16:16:55 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for host failed: No such host is known.  in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1896)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://host', 465, NULL, NULL, 5)
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#5 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(110): CodeIgniter\Email\Email->send()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->send()
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#11 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://host', 465, NULL, NULL, 5)
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(110): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->send()
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #12 {main}
 ERROR - 2024-09-25 16:16:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 16:16:55 --> 
@@ -23150,20 +23150,20 @@ WARNING - 2024-09-25 10:50:26 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-25 16:20:26 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for dbaw jobd ubvl cojq failed: No such host is known.  in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
+ERROR - 2024-09-25 16:20:26 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for dbaw jobd ubvl cojq failed: No such host is known.  in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1896
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1896)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://dbaw jobd...', 465, NULL, NULL, 5)
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#5 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(110): CodeIgniter\Email\Email->send()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->send()
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#11 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1896): fsockopen('ssl://dbaw jobd...', 465, NULL, NULL, 5)
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(110): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->send()
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #12 {main}
 ERROR - 2024-09-25 16:20:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
 ERROR - 2024-09-25 16:20:26 --> 

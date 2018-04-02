@@ -459,21 +459,21 @@ INFO - 2025-07-08 10:49:42 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-07-08 10:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-07-08 10:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-07-08 10:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-07-08 16:20:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-07-08 16:20:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Model.php(206): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\BaseModel.php(610): CodeIgniter\Model->doFind(false, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\delivery_boy\Orders.php(306): CodeIgniter\BaseModel->find(Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->save_order()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Model.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\BaseModel.php(610): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\delivery_boy\Orders.php(306): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->save_order()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-07-08 16:20:18 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
 [Method: POST, Route: delivery_boy/orders/save_order]
@@ -534,21 +534,21 @@ WHERE `tax`.`id` IN :tax.id:', [...], false)
 12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2025-07-08 11:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2025-07-08 16:32:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2025-07-08 16:32:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Model.php(206): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\BaseModel.php(610): CodeIgniter\Model->doFind(false, Array)
-#6 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\delivery_boy\Orders.php(307): CodeIgniter\BaseModel->find(Array)
-#7 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->save_order()
-#8 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#9 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#10 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#11 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#12 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Model.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\BaseModel.php(610): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\delivery_boy\Orders.php(307): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->save_order()
+#8 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#9 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 {main}
 CRITICAL - 2025-07-08 16:32:08 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
 [Method: POST, Route: delivery_boy/orders/save_order]
@@ -748,7 +748,7 @@ INFO - 2025-07-08 11:42:51 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-08 17:12:51 --> ErrorException: Undefined array key 0
 [Method: GET, Route: delivery_boy/orders/orders_table]
 in APPPATH\Controllers\delivery_boy\Orders.php on line 431.
- 1 APPPATH\Controllers\delivery_boy\Orders.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Orders.php', 431)
+ 1 APPPATH\Controllers\delivery_boy\Orders.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Orders.php', 431)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -760,7 +760,7 @@ INFO - 2025-07-08 11:52:17 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-08 17:22:18 --> ErrorException: Undefined array key 0
 [Method: GET, Route: delivery_boy/orders/orders_table]
 in APPPATH\Controllers\delivery_boy\Orders.php on line 431.
- 1 APPPATH\Controllers\delivery_boy\Orders.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Orders.php', 431)
+ 1 APPPATH\Controllers\delivery_boy\Orders.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Orders.php', 431)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -771,7 +771,7 @@ INFO - 2025-07-08 11:52:25 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-08 17:22:25 --> ErrorException: Undefined array key 0
 [Method: GET, Route: delivery_boy/orders/orders_table]
 in APPPATH\Controllers\delivery_boy\Orders.php on line 431.
- 1 APPPATH\Controllers\delivery_boy\Orders.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Orders.php', 431)
+ 1 APPPATH\Controllers\delivery_boy\Orders.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Orders.php', 431)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->orders_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -889,7 +889,7 @@ INFO - 2025-07-08 12:43:31 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-07-08 18:13:31 --> ErrorException: Undefined variable $tax_percentage
 [Method: POST, Route: delivery_boy/orders/save_order]
 in APPPATH\Controllers\delivery_boy\Orders.php on line 349.
- 1 APPPATH\Controllers\delivery_boy\Orders.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tax_percentage', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\delivery_boy\\Orders.php', 349)
+ 1 APPPATH\Controllers\delivery_boy\Orders.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tax_percentage', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\delivery_boy\\Orders.php', 349)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->save_order()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)

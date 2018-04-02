@@ -10,7 +10,6 @@
 
     $first_name = $user->first_name; ?>
     <ul class="navbar-nav navbar-right">
-        <div><span class='badge badge-danger'><?= $version ?></span></div>
         <?= (defined('ALLOW_MODIFICATION') && ALLOW_MODIFICATION == 0) ? "<div><span class='badge badge-info'>Demo Mode</span></div>" : ""  ?>
 
         <li class="dropdown">
@@ -88,7 +87,6 @@
                     <li><a class="nav-link" href="<?= base_url('admin/settings/privacy_policy'); ?>"><?= labels('privacy_policy', 'Privacy Policy') ?></a></li>
                     <li><a class="nav-link" href="<?= base_url('admin/settings/terms_and_conditions'); ?>"><?= labels('terms_and_conditions', 'Terms & Conditions') ?></a></li>
                     <li><a class="nav-link" href="<?= base_url('admin/settings/refund_policy'); ?>"><?= labels('refund_policy', 'Refund Policy') ?></a></li>
-                    <li><a class="nav-link" href="<?= base_url('admin/updater'); ?>"><?= labels('system_updater', 'System Updater') ?></a></li>
                 </ul>
             </li>
         </ul>

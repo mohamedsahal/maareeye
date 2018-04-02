@@ -3,12 +3,12 @@
 use App\Libraries\Flutterwave;
 
 /**
- * Returns the app display name, normalizing legacy "UpBiz" to "Maareeye".
+ * Returns the app display name, normalizing legacy "Maareeye" to "Maareeye".
  */
 function get_app_display_name($title = '')
 {
     $title = trim($title ?? '');
-    if (empty($title) || in_array(strtolower($title), ['upbiz', 'up biz'])) {
+    if (empty($title) || in_array(strtolower($title), ['Maareeye', 'up biz'])) {
         return 'Maareeye';
     }
     return $title;
@@ -1125,50 +1125,6 @@ function create_label($variable, $title = '')
     </div>';
 }
 
-function get_system_update_info()
-{
-    $check_query = false;
-    $query_path = "";
-    $data['previous_error'] = false;
-    $sub_directory = (file_exists(UPDATE_PATH . "update/updater.json")) ? "update/" : "";
-    if (file_exists(UPDATE_PATH . "updater.json") || file_exists(UPDATE_PATH . "update/updater.json")) {
-        $lines_array = file_get_contents(UPDATE_PATH . $sub_directory . "updater.json");
-        $lines_array = json_decode($lines_array, true);
-        $file_version = $lines_array['version'];
-        $file_previous = $lines_array['previous'];
-        $check_query = $lines_array['manual_queries'];
-        $query_path = $lines_array['query_path'];
-    } else {
-        print_r("no json exists");
-        die();
-    }
-    $db_version_data = fetch_details("updates", [], [], 1, 0, "id", "DESC");
-
-    if (!empty($db_version_data) && isset($db_version_data[0]['version'])) {
-        $db_current_version = $db_version_data[0]['version'];
-    }
-    if (!empty($db_current_version)) {
-        $data['db_current_version'] = $db_current_version;
-    } else {
-        $data['db_current_version'] = $db_current_version = 1.0;
-    }
-    if ($db_current_version == $file_previous) {
-        $data['file_current_version'] = $file_current_version = $file_version;
-    } else {
-        $data['previous_error'] = true;
-        $data['file_current_version'] = $file_current_version = false;
-    }
-
-    if ($file_current_version != false && $file_current_version > $db_current_version) {
-
-        $data['is_updatable'] = true;
-    } else {
-        $data['is_updatable'] = false;
-    }
-    $data['query'] = $check_query;
-    $data['query_path'] = $query_path;
-    return $data;
-}
 function update_stock($product_variant_ids, $qtns, $type = '')
 {
 

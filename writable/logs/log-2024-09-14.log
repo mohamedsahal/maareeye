@@ -515,7 +515,7 @@ WARNING - 2024-09-14 07:38:51 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 13:08:51 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 141.
- 1 APPPATH\Controllers\vendor\Suppliers.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Controllers\\vendor\\Suppliers.php', 141)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Controllers\\vendor\\Suppliers.php', 141)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -2216,12 +2216,12 @@ WARNING - 2024-09-14 07:50:24 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 13:20:24 --> ErrorException: Attempt to read property "system_modules" on null
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 107.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "system_modules" on null', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 107)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "system_modules" on null', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 107)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(83): view('vendor/template', [...])
@@ -2231,33 +2231,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 107.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:20:24 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:20:24 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Attempt to read property "system_modules" on null
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 107)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(83): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 107)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(83): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -2392,15 +2392,15 @@ WARNING - 2024-09-14 07:51:40 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:21:40 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:21:40 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 107.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 107)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 107)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(83): view('vendor/template', [...])
@@ -2410,33 +2410,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 107.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:21:40 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:21:40 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 107)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(83): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 107)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(83): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -2615,15 +2615,15 @@ WARNING - 2024-09-14 07:55:05 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:25:05 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:25:05 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -2633,33 +2633,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:25:05 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:25:05 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -2722,15 +2722,15 @@ WARNING - 2024-09-14 07:56:28 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:26:28 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:26:28 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -2740,33 +2740,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:26:28 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:26:28 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -2829,15 +2829,15 @@ WARNING - 2024-09-14 07:56:31 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:26:31 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:26:31 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -2847,33 +2847,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:26:31 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:26:31 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -2936,15 +2936,15 @@ WARNING - 2024-09-14 07:56:48 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:26:48 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:26:48 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -2954,33 +2954,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:26:48 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:26:48 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -3043,15 +3043,15 @@ WARNING - 2024-09-14 07:57:00 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:00 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:27:00 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -3061,33 +3061,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:00 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:27:00 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -3150,15 +3150,15 @@ WARNING - 2024-09-14 07:57:16 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:16 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:27:16 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -3168,33 +3168,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:27:16 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -3257,15 +3257,15 @@ WARNING - 2024-09-14 07:57:20 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:20 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:27:20 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -3275,33 +3275,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:20 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:27:20 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -3540,15 +3540,15 @@ WARNING - 2024-09-14 07:57:24 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:24 --> ErrorException: Undefined property: Config\Upbiz::$system_modules
+CRITICAL - 2024-09-14 13:27:24 --> ErrorException: Undefined property: Config\Maareeye::$system_modules
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
- 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Upbiz::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
+ 1 APPPATH\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Maareeye::$system_modules', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\pages\\forms\\create-team-members.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/forms/create-team-members', [], true)
  5 APPPATH\Views\vendor\template.php(63): view('vendor/pages/forms/create-team-members')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Team_members.php(92): view('vendor/template', [...])
@@ -3558,33 +3558,33 @@ in APPPATH\Views\vendor\pages\forms\create-team-members.php on line 108.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 13:27:24 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 13:27:24 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
-Undefined property: Config\Upbiz::$system_modules
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#11 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+Undefined property: Config\Maareeye::$system_modules
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\pages\forms\create-team-members.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/fo...', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(63): view('vendor/pages/fo...')
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(92): view('vendor/template', Array)
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->create()
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#11 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/team_members/create]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -7601,7 +7601,7 @@ WARNING - 2024-09-14 09:45:34 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:15:34 --> ErrorException: Undefined array key "id"
 [Method: GET, Route: vendor/businesses/edit_business/3]
 in APPPATH\Controllers\vendor\Businesses.php on line 331.
- 1 APPPATH\Controllers\vendor\Businesses.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Controllers\\vendor\\Businesses.php', 331)
+ 1 APPPATH\Controllers\vendor\Businesses.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Controllers\\vendor\\Businesses.php', 331)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Businesses->edit_business('3')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Businesses))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -7815,7 +7815,7 @@ WARNING - 2024-09-14 09:51:29 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:21:29 --> ErrorException: Undefined array key "id"
 [Method: GET, Route: vendor/businesses/edit_business/3]
 in APPPATH\Controllers\vendor\Businesses.php on line 331.
- 1 APPPATH\Controllers\vendor\Businesses.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Controllers\\vendor\\Businesses.php', 331)
+ 1 APPPATH\Controllers\vendor\Businesses.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Controllers\\vendor\\Businesses.php', 331)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Businesses->edit_business('3')
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Businesses))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -9697,8 +9697,8 @@ WARNING - 2024-09-14 10:04:13 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:34:13 --> ErrorException: Undefined variable $title
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(220): view('vendor/template', [...])
@@ -9708,29 +9708,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:34:13 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:34:13 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(220): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(220): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -9884,8 +9884,8 @@ WARNING - 2024-09-14 10:07:30 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:37:30 --> ErrorException: Undefined variable $title
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(222): view('vendor/template', [...])
@@ -9895,29 +9895,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:37:30 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:37:30 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(222): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(222): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -9983,8 +9983,8 @@ WARNING - 2024-09-14 10:08:08 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:38:08 --> ErrorException: Undefined variable $title
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(222): view('vendor/template', [...])
@@ -9994,29 +9994,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:38:08 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:38:08 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(222): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(222): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -10082,8 +10082,8 @@ WARNING - 2024-09-14 10:08:44 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:38:44 --> ErrorException: Undefined variable $title
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(224): view('vendor/template', [...])
@@ -10093,29 +10093,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:38:44 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:38:44 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(224): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(224): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -10181,8 +10181,8 @@ WARNING - 2024-09-14 10:09:04 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:39:04 --> ErrorException: Undefined variable $title
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(225): view('vendor/template', [...])
@@ -10192,29 +10192,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:39:04 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:39:04 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(225): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(225): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -10930,24 +10930,24 @@ in APPPATH\Controllers\vendor\Team_members.php on line 125.
  4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:41:53 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:41:53 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Unknown named parameter $messages
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #6 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -11107,24 +11107,24 @@ in APPPATH\Controllers\vendor\Team_members.php on line 125.
  4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:42:11 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:42:11 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Unknown named parameter $messages
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #6 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -11600,8 +11600,8 @@ WARNING - 2024-09-14 10:17:11 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:47:11 --> ErrorException: Undefined variable $title
 [Method: GET, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(244): view('vendor/template', [...])
@@ -11611,29 +11611,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:47:11 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:47:11 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(244): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(244): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: GET, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -11705,24 +11705,24 @@ in APPPATH\Controllers\vendor\Team_members.php on line 125.
  4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:47:15 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:47:15 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Unknown named parameter $messages
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #6 {main}
 [Method: POST, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -11758,8 +11758,8 @@ WARNING - 2024-09-14 10:17:18 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:47:18 --> ErrorException: Undefined variable $title
 [Method: GET, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(244): view('vendor/template', [...])
@@ -11769,29 +11769,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:47:18 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:47:18 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(244): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(244): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: GET, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -12122,7 +12122,7 @@ WARNING - 2024-09-14 10:18:17 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:48:17 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 141.
- 1 APPPATH\Controllers\vendor\Suppliers.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Controllers\\vendor\\Suppliers.php', 141)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Controllers\\vendor\\Suppliers.php', 141)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -13444,8 +13444,8 @@ WARNING - 2024-09-14 10:29:04 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 15:59:04 --> ErrorException: Undefined variable $title
 [Method: GET, Route: vendor/team_members/save]
 in APPPATH\Views\vendor\template.php on line 20.
- 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php', 20)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Views\\vendor\\template.php')
+ 1 APPPATH\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Views\\vendor\\template.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  5 APPPATH\Controllers\vendor\Team_members.php(245): view('vendor/template', [...])
@@ -13455,29 +13455,29 @@ in APPPATH\Views\vendor\template.php on line 20.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 15:59:04 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-14 15:59:04 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $title
-#0 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Team_members.php(245): view('vendor/template', Array)
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Views\vendor\template.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Team_members.php(245): view('vendor/template', Array)
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Team_members->save()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Team_members))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: GET, Route: vendor/team_members/save]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -17661,7 +17661,7 @@ WARNING - 2024-09-14 10:55:48 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-14 16:25:48 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 141.
- 1 APPPATH\Controllers\vendor\Suppliers.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\new_ci_for_upbiz_saas\\app\\Controllers\\vendor\\Suppliers.php', 141)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\new_ci_for_Maareeye_saas\\app\\Controllers\\vendor\\Suppliers.php', 141)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -18771,7 +18771,7 @@ WARNING - 2024-09-14 10:59:01 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-14 16:29:01 --> TypeError: CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, float given, called in C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php on line 1372
+CRITICAL - 2024-09-14 16:29:01 --> TypeError: CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, float given, called in C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php on line 1372
 [Method: POST, Route: vendor/products/save_adjustment]
 in SYSTEMPATH\Database\MySQLi\Connection.php on line 349.
  1 SYSTEMPATH\Database\BaseConnection.php(1372): CodeIgniter\Database\MySQLi\Connection->_escapeString(4.0)
@@ -18924,19 +18924,19 @@ WARNING - 2024-09-14 11:00:14 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-14 16:30:16 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-14 16:30:16 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Sat, 14 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\new_ci_for_upbiz_saas\app\Controllers\vendor\Products.php(1074): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\new_ci_for_upbiz_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\new_ci_for_upbiz_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Sat, 14 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\new_ci_for_Maareeye_saas\app\Controllers\vendor\Products.php(1074): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\new_ci_for_Maareeye_saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\new_ci_for_Maareeye_saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-14 16:30:16 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-14 16:30:16 --> 

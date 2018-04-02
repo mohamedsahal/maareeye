@@ -6281,7 +6281,7 @@ WARNING - 2024-09-27 12:58:39 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-27 12:58:40 --> ErrorException: unlink(public/uploads/business/avtar1_2.jfif): No such file or directory
 [Method: POST, Route: vendor/businesses/save_business]
 in APPPATH\Controllers\vendor\Businesses.php on line 110.
- 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/uploads/business/avtar1_2.jfif): No such file or directory', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Businesses.php', 110)
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/uploads/business/avtar1_2.jfif): No such file or directory', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Businesses.php', 110)
  2 APPPATH\Controllers\vendor\Businesses.php(110): unlink('public/uploads/business/avtar1_2.jfif')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Businesses->save_business()
  4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Businesses))
@@ -7606,8 +7606,8 @@ WARNING - 2024-09-27 07:47:31 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-27 13:17:31 --> ErrorException: Undefined variable $business_name
 [Method: GET, Route: vendor/invoices/view_invoice/1]
 in APPPATH\Views\vendor\pages\views\view_invoice.php on line 15.
- 1 APPPATH\Views\vendor\pages\views\view_invoice.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $business_name', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php', 15)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php')
+ 1 APPPATH\Views\vendor\pages\views\view_invoice.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $business_name', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/views/view_invoice', [], true)
  5 APPPATH\Controllers\vendor\Invoices.php(196): view('vendor/pages/views/view_invoice', [...])
@@ -7617,29 +7617,29 @@ in APPPATH\Views\vendor\pages\views\view_invoice.php on line 15.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-27 13:17:31 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-27 13:17:31 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $business_name
-#0 C:\xampp\htdocs\upbiz-sass-git\app\Views\vendor\pages\views\view_invoice.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(196): view('vendor/pages/vi...', Array)
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('1')
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\app\Views\vendor\pages\views\view_invoice.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(196): view('vendor/pages/vi...', Array)
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('1')
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 [Method: GET, Route: vendor/invoices/view_invoice/1]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -15736,9 +15736,9 @@ WARNING - 2024-09-27 10:48:10 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-27 16:18:10 --> ErrorException: Constant K_PATH_IMAGES already defined
 [Method: GET, Route: vendor/invoices/view_invoice/2]
 in APPPATH\Views\vendor\pages\views\view_invoice.php on line 16.
- 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant K_PATH_IMAGES already defined', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php', 16)
- 2 APPPATH\Views\vendor\pages\views\view_invoice.php(16): define('K_PATH_IMAGES', 'http://localhost/upbiz-sass-git/')
- 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php')
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant K_PATH_IMAGES already defined', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php', 16)
+ 2 APPPATH\Views\vendor\pages\views\view_invoice.php(16): define('K_PATH_IMAGES', 'http://localhost/Maareeye-sass-git/')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\pages\\views\\view_invoice.php')
  4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/views/view_invoice', [], true)
  6 APPPATH\Controllers\vendor\Invoices.php(189): view('vendor/pages/views/view_invoice', [...])
@@ -15748,12 +15748,12 @@ in APPPATH\Views\vendor\pages\views\view_invoice.php on line 16.
 10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-27 16:18:10 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-27 16:18:10 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
@@ -15761,17 +15761,17 @@ Stack trace:
 ErrorException
 Constant K_PATH_IMAGES already defined
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant K_PATH...', 'C:\\xampp\\htdocs...', 16)
-#1 C:\xampp\htdocs\upbiz-sass-git\app\Views\vendor\pages\views\view_invoice.php(16): define('K_PATH_IMAGES', 'http://localhos...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#5 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#11 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\app\Views\vendor\pages\views\view_invoice.php(16): define('K_PATH_IMAGES', 'http://localhos...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#5 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #12 {main}
 [Method: GET, Route: vendor/invoices/view_invoice/2]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -17451,28 +17451,28 @@ in APPPATH\Views\vendor\pages\views\view_invoice.php on line 15.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-27 16:39:03 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-27 16:39:03 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Undefined constant "K_TCPDF_EXTERNAL_CONFIG"
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#3 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#3 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/invoices/view_invoice/2]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -17606,28 +17606,28 @@ in APPPATH\Views\vendor\pages\views\view_invoice.php on line 15.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-27 16:39:41 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-27 16:39:41 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Undefined constant "K_TCPDF_EXTERNAL_CONFIG"
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#3 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#3 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/invoices/view_invoice/2]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -17703,28 +17703,28 @@ in APPPATH\Views\vendor\pages\views\view_invoice.php on line 15.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-27 16:40:10 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-27 16:40:10 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Undefined constant "K_TCPDF_EXTERNAL_CONFIG"
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#3 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#3 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/invoices/view_invoice/2]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -17800,28 +17800,28 @@ in APPPATH\Views\vendor\pages\views\view_invoice.php on line 15.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-27 16:40:12 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-27 16:40:12 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Undefined constant "K_TCPDF_EXTERNAL_CONFIG"
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#3 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#3 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/invoices/view_invoice/2]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -17897,28 +17897,28 @@ in APPPATH\Views\vendor\pages\views\view_invoice.php on line 15.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-27 16:40:13 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-27 16:40:13 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Undefined constant "K_TCPDF_EXTERNAL_CONFIG"
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#3 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
-#4 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#9 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#3 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Invoices.php(189): view('vendor/pages/vi...', Array)
+#4 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Invoices->view_invoice('2')
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Invoices))
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #10 {main}
 [Method: GET, Route: vendor/invoices/view_invoice/2]
 in APPPATH\Views\errors\html\error_exception.php on line 33.

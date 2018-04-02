@@ -68,24 +68,24 @@ in APPPATH\Controllers\Login.php on line 13.
  4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-07-14 07:19:01 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-07-14 07:19:01 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(116): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(116): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
 #5 {main}
   thrown
 【Previous Exception】
 Error
 Undefined constant Kint\Kint::VERSION
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(903): App\Controllers\Login->__construct()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#5 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(903): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #6 {main}
 [Method: GET, Route: login]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -122,7 +122,7 @@ DEBUG - 2025-07-14 08:38:17 --> Session: Class initialized using 'CodeIgniter\Se
 CRITICAL - 2025-07-14 14:08:17 --> ErrorException: Undefined array key "category_id"
 [Method: GET, Route: vendor/products/products_table]
 in APPPATH\Models\Products_model.php on line 77.
- 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Models\\Products_model.php', 77)
+ 1 APPPATH\Models\Products_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Models\\Products_model.php', 77)
  2 APPPATH\Controllers\vendor\Products.php(511): App\Models\Products_model->get_products('2')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->products_table()
  4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -295,7 +295,7 @@ DEBUG - 2025-07-14 08:40:04 --> Session: Class initialized using 'CodeIgniter\Se
 CRITICAL - 2025-07-14 14:10:04 --> ErrorException: unlink(public/uploads/products/1750923385_66ccaacc0b488d981170.jpg): No such file or directory
 [Method: POST, Route: vendor/products/save_products]
 in APPPATH\Controllers\vendor\Products.php on line 262.
- 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/uploads/products/1750923385_66ccaacc0b488d981170.jpg): No such file or directory', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Products.php', 262)
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/uploads/products/1750923385_66ccaacc0b488d981170.jpg): No such file or directory', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Products.php', 262)
  2 APPPATH\Controllers\vendor\Products.php(262): unlink('public/uploads/products/1750923385_66ccaacc0b488d981170.jpg')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->save_products()
  4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
@@ -311,7 +311,7 @@ DEBUG - 2025-07-14 08:40:45 --> Session: Class initialized using 'CodeIgniter\Se
 CRITICAL - 2025-07-14 14:10:45 --> ErrorException: unlink(public/uploads/products/1750923385_66ccaacc0b488d981170.jpg): No such file or directory
 [Method: POST, Route: vendor/products/save_products]
 in APPPATH\Controllers\vendor\Products.php on line 262.
- 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/uploads/products/1750923385_66ccaacc0b488d981170.jpg): No such file or directory', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Products.php', 262)
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/uploads/products/1750923385_66ccaacc0b488d981170.jpg): No such file or directory', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Products.php', 262)
  2 APPPATH\Controllers\vendor\Products.php(262): unlink('public/uploads/products/1750923385_66ccaacc0b488d981170.jpg')
  3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->save_products()
  4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))

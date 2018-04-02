@@ -355,7 +355,7 @@ WARNING - 2024-12-13 04:44:37 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 10:14:37 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -881,7 +881,7 @@ WARNING - 2024-12-13 04:44:54 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 10:14:54 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -4177,7 +4177,7 @@ WARNING - 2024-12-13 05:07:52 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 10:37:52 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -4667,7 +4667,7 @@ WARNING - 2024-12-13 05:08:46 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 10:38:46 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -6010,7 +6010,7 @@ WARNING - 2024-12-13 05:10:12 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 10:40:12 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -6614,7 +6614,7 @@ WARNING - 2024-12-13 07:15:25 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 12:45:25 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -7593,7 +7593,7 @@ WARNING - 2024-12-13 07:15:44 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 12:45:44 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -7893,7 +7893,7 @@ WARNING - 2024-12-13 07:33:09 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 13:03:09 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -8165,7 +8165,7 @@ WARNING - 2024-12-13 07:38:52 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 13:08:52 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -8437,7 +8437,7 @@ WARNING - 2024-12-13 07:39:28 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 13:09:28 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -8709,7 +8709,7 @@ WARNING - 2024-12-13 07:40:08 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 13:10:08 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -9416,7 +9416,7 @@ WARNING - 2024-12-13 07:41:31 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 13:11:31 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -10216,7 +10216,7 @@ WARNING - 2024-12-13 07:41:44 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 13:11:44 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -10488,7 +10488,7 @@ WARNING - 2024-12-13 07:45:02 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-12-13 13:15:02 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/products/stock_alert]
 in APPPATH\Controllers\vendor\Products.php on line 1324.
- 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
+ 1 APPPATH\Controllers\vendor\Products.php(1324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp1\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 1324)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->stock_alert()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)

@@ -60,7 +60,7 @@ INFO - 2025-06-27 05:03:12 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-27 10:33:12 --> ErrorException: Undefined variable $net_banking
 [Method: POST, Route: vendor/purchases/save]
 in APPPATH\Controllers\vendor\Purchases.php on line 351.
- 1 APPPATH\Controllers\vendor\Purchases.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $net_banking', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Purchases.php', 351)
+ 1 APPPATH\Controllers\vendor\Purchases.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $net_banking', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Purchases.php', 351)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->save()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -75,7 +75,7 @@ INFO - 2025-06-27 05:04:18 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-27 10:34:18 --> ErrorException: Undefined variable $net_banking
 [Method: POST, Route: vendor/purchases/save]
 in APPPATH\Controllers\vendor\Purchases.php on line 351.
- 1 APPPATH\Controllers\vendor\Purchases.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $net_banking', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Purchases.php', 351)
+ 1 APPPATH\Controllers\vendor\Purchases.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $net_banking', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Purchases.php', 351)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->save()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -173,7 +173,7 @@ INFO - 2025-06-27 05:31:24 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-27 11:01:24 --> ErrorException: Undefined variable $status
 [Method: GET, Route: vendor/purchases/purchase_table]
 in APPPATH\Controllers\vendor\Purchases.php on line 411.
- 1 APPPATH\Controllers\vendor\Purchases.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Purchases.php', 411)
+ 1 APPPATH\Controllers\vendor\Purchases.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Purchases.php', 411)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->purchase_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -185,7 +185,7 @@ INFO - 2025-06-27 05:31:40 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-27 11:01:40 --> ErrorException: Undefined variable $status
 [Method: GET, Route: vendor/purchases/purchase_table]
 in APPPATH\Controllers\vendor\Purchases.php on line 411.
- 1 APPPATH\Controllers\vendor\Purchases.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Purchases.php', 411)
+ 1 APPPATH\Controllers\vendor\Purchases.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Purchases.php', 411)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->purchase_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -358,7 +358,7 @@ INFO - 2025-06-27 06:36:18 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-27 12:06:19 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/services/service_table]
 in APPPATH\Controllers\vendor\Services.php on line 304.
- 1 APPPATH\Controllers\vendor\Services.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Services.php', 304)
+ 1 APPPATH\Controllers\vendor\Services.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Services.php', 304)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Services->service_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Services))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -370,7 +370,7 @@ INFO - 2025-06-27 06:36:45 --> Session: Class initialized using 'CodeIgniter\Ses
 CRITICAL - 2025-06-27 12:06:45 --> ErrorException: Trying to access array offset on value of type null
 [Method: GET, Route: vendor/services/service_table]
 in APPPATH\Controllers\vendor\Services.php on line 304.
- 1 APPPATH\Controllers\vendor\Services.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projects\\upbiz-saas\\app\\Controllers\\vendor\\Services.php', 304)
+ 1 APPPATH\Controllers\vendor\Services.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projects\\Maareeye-saas\\app\\Controllers\\vendor\\Services.php', 304)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Services->service_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Services))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -615,25 +615,25 @@ in FCPATH\vendor\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 9
  5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2025-06-27 12:36:46 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\upbiz-saas\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2025-06-27 12:36:46 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\projects\Maareeye-saas\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Exception), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(Exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
 #5 {main}
   thrown
 【Previous Exception】
 Exception
 Undefined method Ion_auth::isDeliveryBoy() called
-#0 C:\xampp\htdocs\projects\upbiz-saas\app\Controllers\delivery_boy\Orders.php(33): IonAuth\Libraries\IonAuth->__call('isDeliveryBoy', Array)
-#1 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->index()
-#2 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
-#3 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#5 C:\xampp\htdocs\projects\upbiz-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#6 C:\xampp\htdocs\projects\upbiz-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\projects\Maareeye-saas\app\Controllers\delivery_boy\Orders.php(33): IonAuth\Libraries\IonAuth->__call('isDeliveryBoy', Array)
+#1 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\delivery_boy\Orders->index()
+#2 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\delivery_boy\Orders))
+#3 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\Maareeye-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\projects\Maareeye-saas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #7 {main}
 [Method: GET, Route: delivery_boy/orders]
 in APPPATH\Views\errors\html\error_exception.php on line 33.

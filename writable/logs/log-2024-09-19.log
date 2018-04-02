@@ -776,19 +776,19 @@ WARNING - 2024-09-19 03:32:37 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-19 09:02:40 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-19 09:02:40 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-19 09:02:40 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-19 09:02:40 --> 
@@ -3176,19 +3176,19 @@ WARNING - 2024-09-19 03:34:07 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-19 09:04:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-19 09:04:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-19 09:04:09 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-19 09:04:09 --> 
@@ -3839,7 +3839,7 @@ WARNING - 2024-09-19 03:34:20 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 09:04:20 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 157.
- 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -4411,7 +4411,7 @@ WARNING - 2024-09-19 03:34:28 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 09:04:28 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 157.
- 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5095,7 +5095,7 @@ WARNING - 2024-09-19 03:34:44 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 09:04:44 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 157.
- 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -5251,7 +5251,7 @@ WARNING - 2024-09-19 03:34:46 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 09:04:46 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 157.
- 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -23629,19 +23629,19 @@ WARNING - 2024-09-19 04:15:45 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-19 09:45:47 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-19 09:45:47 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-19 09:45:47 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-19 09:45:47 --> 
@@ -31464,7 +31464,7 @@ WARNING - 2024-09-19 04:25:09 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 09:55:10 --> ErrorException: Undefined array key 1
 [Method: POST, Route: vendor/purchases/save]
 in APPPATH\Controllers\vendor\Purchases.php on line 235.
- 1 APPPATH\Controllers\vendor\Purchases.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 235)
+ 1 APPPATH\Controllers\vendor\Purchases.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 235)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->save()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -31502,7 +31502,7 @@ WARNING - 2024-09-19 04:26:02 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 09:56:02 --> ErrorException: Undefined array key 1
 [Method: POST, Route: vendor/purchases/save]
 in APPPATH\Controllers\vendor\Purchases.php on line 235.
- 1 APPPATH\Controllers\vendor\Purchases.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Purchases.php', 235)
+ 1 APPPATH\Controllers\vendor\Purchases.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Purchases.php', 235)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Purchases->save()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Purchases))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -44300,7 +44300,7 @@ WARNING - 2024-09-19 05:36:52 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 11:06:52 --> ErrorException: Undefined array key "id"
 [Method: GET, Route: vendor/products/json]
 in APPPATH\Controllers\vendor\Products.php on line 759.
- 1 APPPATH\Controllers\vendor\Products.php(759): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 759)
+ 1 APPPATH\Controllers\vendor\Products.php(759): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 759)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -44368,7 +44368,7 @@ WARNING - 2024-09-19 05:37:48 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 11:07:48 --> ErrorException: Array to string conversion
 [Method: GET, Route: vendor/products/json]
 in APPPATH\Controllers\vendor\Products.php on line 757.
- 1 APPPATH\Controllers\vendor\Products.php(757): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Products.php', 757)
+ 1 APPPATH\Controllers\vendor\Products.php(757): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Products.php', 757)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Products->json()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -50698,19 +50698,19 @@ WARNING - 2024-09-19 06:21:33 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-19 11:51:35 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-19 11:51:35 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-19 11:51:35 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-19 11:51:35 --> 
@@ -66480,19 +66480,19 @@ WARNING - 2024-09-19 07:00:35 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-19 12:30:37 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
+ERROR - 2024-09-19 12:30:37 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php:1762
 Stack trace:
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1762): mail('test@gmail.com3', '=?ISO-8859-1?Q?...', 'This is a multi...', 'Date: Thu, 19 S...', '-f infinitie.ya...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Products.php(1145): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Products->send_email_stock_alert()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Products))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 ERROR - 2024-09-19 12:30:37 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2024-09-19 12:30:37 --> 
@@ -123351,12 +123351,12 @@ WARNING - 2024-09-19 09:53:50 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 15:23:50 --> ErrorException: Undefined variable $business_id
 [Method: GET, Route: vendor/suppliers]
 in APPPATH\Views\vendor\pages\views\suppliers_table.php on line 72.
- 1 APPPATH\Views\vendor\pages\views\suppliers_table.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $business_id', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\pages\\views\\suppliers_table.php', 72)
- 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\pages\\views\\suppliers_table.php')
+ 1 APPPATH\Views\vendor\pages\views\suppliers_table.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $business_id', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\pages\\views\\suppliers_table.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\pages\\views\\suppliers_table.php')
  3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/views/suppliers_table', [], true)
  5 APPPATH\Views\vendor\template.php(84): view('vendor/pages/views/suppliers_table')
- 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Views\\vendor\\template.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Views\\vendor\\template.php')
  7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/template', [], true)
  9 APPPATH\Controllers\vendor\Suppliers.php(62): view('vendor/template', [...])
@@ -123366,33 +123366,33 @@ in APPPATH\Views\vendor\pages\views\suppliers_table.php on line 72.
 13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-19 15:23:50 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\upbiz-sass-git\app\Views\errors\html\error_exception.php:33
+CRITICAL - 2024-09-19 15:23:50 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\Maareeye-sass-git\app\Views\errors\html\error_exception.php:33
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
 #4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
 #5 {main}
   thrown
 【Previous Exception】
 ErrorException
 Undefined variable $business_id
-#0 C:\xampp\htdocs\upbiz-sass-git\app\Views\vendor\pages\views\suppliers_table.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Views\vendor\template.php(84): view('vendor/pages/vi...')
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
-#8 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Suppliers.php(62): view('vendor/template', Array)
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->index()
-#10 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
-#11 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#13 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#14 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\app\Views\vendor\pages\views\suppliers_table.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/pages/vi...', Array, true)
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Views\vendor\template.php(84): view('vendor/pages/vi...')
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('vendor/template', Array, true)
+#8 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Suppliers.php(62): view('vendor/template', Array)
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->index()
+#10 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
+#11 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #15 {main}
 [Method: GET, Route: vendor/suppliers]
 in APPPATH\Views\errors\html\error_exception.php on line 33.
@@ -130301,7 +130301,7 @@ WARNING - 2024-09-19 16:32:46 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 16:32:46 --> ErrorException: Undefined array key 11
 [Method: POST, Route: vendor/bulk_uploads/import_suppliers]
 in APPPATH\Controllers\vendor\Bulk_Uploads.php on line 1142.
- 1 APPPATH\Controllers\vendor\Bulk_Uploads.php(1142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 11', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Bulk_Uploads.php', 1142)
+ 1 APPPATH\Controllers\vendor\Bulk_Uploads.php(1142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 11', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Bulk_Uploads.php', 1142)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Bulk_Uploads->import_suppliers()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Bulk_Uploads))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -134159,7 +134159,7 @@ WARNING - 2024-09-19 11:32:00 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 17:02:00 --> ErrorException: Undefined variable $array
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 165.
- 1 APPPATH\Controllers\vendor\Suppliers.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 165)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 165)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -135866,7 +135866,7 @@ WARNING - 2024-09-19 11:49:32 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-09-19 17:19:32 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php on line 801
+CRITICAL - 2024-09-19 17:19:32 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php on line 801
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in SYSTEMPATH\Database\BaseBuilder.php on line 3434.
  1 SYSTEMPATH\Database\BaseBuilder.php(801): CodeIgniter\Database\BaseBuilder->hasOperator(96)
@@ -136086,7 +136086,7 @@ WARNING - 2024-09-19 11:51:13 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 17:21:13 --> ErrorException: Undefined array key "name"
 [Method: GET, Route: vendor/suppliers/suppliers_table]
 in APPPATH\Controllers\vendor\Suppliers.php on line 157.
- 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
+ 1 APPPATH\Controllers\vendor\Suppliers.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Suppliers.php', 157)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Suppliers->suppliers_table()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Suppliers))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -139292,7 +139292,7 @@ WARNING - 2024-09-19 18:10:11 --> [DEPRECATED] Creation of dynamic property IonA
 CRITICAL - 2024-09-19 18:10:11 --> ErrorException: Trying to access array offset on value of type null
 [Method: POST, Route: vendor/bulk_uploads/import_suppliers]
 in APPPATH\Controllers\vendor\Bulk_Uploads.php on line 1115.
- 1 APPPATH\Controllers\vendor\Bulk_Uploads.php(1115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upbiz-sass-git\\app\\Controllers\\vendor\\Bulk_Uploads.php', 1115)
+ 1 APPPATH\Controllers\vendor\Bulk_Uploads.php(1115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Maareeye-sass-git\\app\\Controllers\\vendor\\Bulk_Uploads.php', 1115)
  2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\vendor\Bulk_Uploads->import_suppliers()
  3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Bulk_Uploads))
  4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -139485,19 +139485,19 @@ WARNING - 2024-09-19 18:15:42 --> [DEPRECATED] Creation of dynamic property IonA
  6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2024-09-19 18:15:42 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+ERROR - 2024-09-19 18:15:42 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
 Stack trace:
-#0 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
-#1 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
-#2 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
-#3 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
-#4 C:\xampp\htdocs\upbiz-sass-git\app\Controllers\vendor\Bulk_Uploads.php(1125): CodeIgniter\Database\BaseBuilder->update(Array)
-#5 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Bulk_Uploads->import_suppliers()
-#6 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Bulk_Uploads))
-#7 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\upbiz-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-#10 C:\xampp\htdocs\upbiz-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#0 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\Maareeye-sass-git\app\Controllers\vendor\Bulk_Uploads.php(1125): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\vendor\Bulk_Uploads->import_suppliers()
+#6 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vendor\Bulk_Uploads))
+#7 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Maareeye-sass-git\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Maareeye-sass-git\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #11 {main}
 CRITICAL - 2024-09-19 18:15:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
 [Method: POST, Route: vendor/bulk_uploads/import_suppliers]
