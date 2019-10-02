@@ -761,6 +761,14 @@ function labels($label, $alt = '')
         return trim($translation);
     }
 
+    // Fallback to English when current language has empty translation
+    if ($lang !== 'en') {
+        $translation = lang('Text.' . $label, [], 'en');
+        if (!empty($translation) && $translation !== 'Text.' . $label) {
+            return trim($translation);
+        }
+    }
+
     return trim($alt);
 }
 
@@ -1121,7 +1129,7 @@ function create_label($variable, $title = '')
     }
     return '<div class="form-group col-md-6">
         <label>' . $title . '</label>
-        <input type="text" name="' . $variable . '" value="' . labels($variable) . '" class="form-control">
+        <input type="text" name="' . $variable . '" value="' . labels($variable, $title) . '" class="form-control">
     </div>';
 }
 

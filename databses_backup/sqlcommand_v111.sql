@@ -208,7 +208,7 @@ CREATE TABLE `languages` (
 
 INSERT INTO `languages` (`id`, `language`, `code`, `is_rtl`, `created_at`) VALUES
 (1, 'english', 'en', 0, '2022-04-26 11:23:14'),
-(2, 'hindi', 'hi', 0, '2022-04-26 11:30:52');
+(2, 'somali', 'so', 0, '2022-04-26 11:30:52');
 
 -- --------------------------------------------------------
 
