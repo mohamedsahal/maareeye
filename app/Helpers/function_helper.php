@@ -292,7 +292,8 @@ function escape_array($array)
 
 
 
-$CI_INSTANCE = [];  # It keeps a ref to global CI instance
+// CI3→CI4 upgrade: Replaced get_instance(). DB access via \Config\Database::connect()
+$CI_INSTANCE = [];  # Legacy ref - kept for optional controller access
 
 function register_ci_instance(\App\Controllers\BaseController &$_ci)
 {

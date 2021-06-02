@@ -17,6 +17,9 @@ use Psr\Log\LoggerInterface;
  * Extend this class in any new controllers:
  *     class Home extends BaseController
  *
+ * Upgraded from CI3: Replaces CI_Controller. Uses initController() instead
+ * of constructor for request/response/logger setup.
+ *
  * For security be sure to declare any new methods as protected or private.
  */
 abstract class BaseController extends Controller

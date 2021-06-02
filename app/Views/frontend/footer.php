@@ -46,7 +46,7 @@
             <hr>
             <div class="d-flex justify-content-center copyright">
                 <p> Copyright &copy; <?= date("Y") ?>
-                    Designed By <a href="https://infinitietech.com" target="_blank">Mohamed Sahal</a>
+                    Designed By <a href="https://mohamedsahal.com" target="_blank">Mohamed Sahal</a>
                 </p>
             </div>
         </div>

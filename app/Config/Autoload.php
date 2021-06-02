@@ -86,6 +86,8 @@ class Autoload extends AutoloadConfig
      * -------------------------------------------------------------------
      * Helpers
      * -------------------------------------------------------------------
+     * CI3→CI4: Loaded via helper() in CI4. No more $this->load->helper().
+     *
      * Prototype:
      *   $helpers = [
      *       'form',

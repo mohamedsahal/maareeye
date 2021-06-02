@@ -76,7 +76,7 @@
 <footer class="main-footer mb-0 bg-white">
     <div class="footer-right  ">
         <p> Copyright &copy; <?= date("Y") ?> <?= $company ?>
-            Design & Developed By <a href="https://infinitietech.com" target="_blank">Mohamed Sahal</a>
+            Design & Developed By <a href="https://mohamedsahal.com" target="_blank">Mohamed Sahal</a>
         </p>
     </div>
 </footer>

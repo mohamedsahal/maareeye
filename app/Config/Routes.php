@@ -3,6 +3,9 @@
 use CodeIgniter\Router\RouteCollection;
 
 /**
+ * Routes - CI3→CI4: Segment-based $route[] replaced with $routes->get/post/etc.
+ * Controller::method format with namespace. Placeholders: (:any), (:num).
+ *
  * @var RouteCollection $routes
  */
 
